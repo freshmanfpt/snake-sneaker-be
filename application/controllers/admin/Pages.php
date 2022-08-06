@@ -107,6 +107,15 @@ class Pages extends MY_Controller
 
                     $cod_payment += $value->payment_amt;
                 }
+                
+                $rowMoMo = $this->common_model->selectByids(array("status" => "1", "gateway" => "MoMo", "DATE_FORMAT(FROM_UNIXTIME(`date`), '%c') =" => $mon, "DATE_FORMAT(FROM_UNIXTIME(`date`), '%Y') =" => $year), "tbl_transaction");
+
+                $momo_payment = 0;
+
+                foreach ($rowMoMo as $key => $value) {
+
+                    $momo_payment += $value->payment_amt;
+                }
 
                 $rowPayPal = $this->common_model->selectByids(array("status" => "1", "gateway" => "paypal", "DATE_FORMAT(FROM_UNIXTIME(`date`), '%c') =" => $mon, "DATE_FORMAT(FROM_UNIXTIME(`date`), '%Y') =" => $year), "tbl_transaction");
 
@@ -157,6 +166,16 @@ class Pages extends MY_Controller
 
                     $cod_payment += $value->payment_amt;
                 }
+                
+                
+                $rowMoMo = $this->common_model->selectByids(array("status" => "1", "gateway" => "MoMo", "DATE_FORMAT(FROM_UNIXTIME(`date`), '%c') =" => $mon), "tbl_transaction");
+
+                $momo_payment = 0;
+
+                foreach ($rowMoMo as $key => $value) {
+
+                    $momo_payment += $value->payment_amt;
+                }
 
                 $rowPayPal = $this->common_model->selectByids(array("status" => "1", "gateway" => "paypal", "DATE_FORMAT(FROM_UNIXTIME(`date`), '%c') =" => $mon), "tbl_transaction");
 
@@ -186,7 +205,7 @@ class Pages extends MY_Controller
                 }
             }
 
-            $countStr .= "['" . $month . "', " . $total_payment . ", " . $cod_payment . ", " . $paypal_payment . ", " . $stripe_payment . ", " . $razorpay_payment . "], ";
+            $countStr .= "['" . $month . "', " . $total_payment . ", " . $cod_payment . ", " . $momo_payment . "], ";
 
             $countStrOrd .= "['" . $month . "', " .$pending_order . ", " . $deliver_order . ", " . $cancel_order . "], ";
 
@@ -739,7 +758,7 @@ class Pages extends MY_Controller
         $this->load->model('Admin_model');
 
         $data = array();
-        $data['page_title'] = 'Admin Profile';
+        $data['page_title'] = 'Profile Admin';
         $data['current_page'] = 'Admin Profile';
         $data['row'] = $this->Admin_model->get_data(1);
 
@@ -1127,7 +1146,7 @@ class Pages extends MY_Controller
         $data = $this->security->xss_clean($data);
 
         if ($this->common_model->update($data, '1', 'tbl_admin')) {
-            $message = array('message' => 'Profile updated...', 'class' => 'success');
+            $message = array('message' => 'Cập nhật thành công', 'class' => 'success');
             $this->session->set_flashdata('response_msg', $message);
         }
 

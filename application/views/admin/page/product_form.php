@@ -118,6 +118,12 @@ $redirect=$_GET['redirect'].(isset($_GET['category']) ? '&category='.$_GET['cate
                   <div class="col-md-10">
                     <textarea name="product_desc" id="product_desc" class="form-control" rows="2"><?php if(isset($product)){ echo $product[0]->product_desc;} ?></textarea>
                   </div>
+                  <!--TODO-->
+                  <label class="col-md-2 control-label">Số lượng :-
+                  </label>
+                  <div class="col-md-10">
+                    <input type="number" name="amount" id="amount" value="<?php if(isset($product)){ echo $product[0]->amount;} ?>" class="form-control" placeholder="100" required>
+                  </div>
                 </div>
                 
                 <div class="form-group">

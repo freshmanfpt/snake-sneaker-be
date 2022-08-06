@@ -210,14 +210,14 @@ $route['todays-deals'] = 'product/todays_deals';
 $route['banners/(:any)/(:any)'] = 'product/banner_products';
 $route['banners/(:any)'] = 'product/banner_products';
 $route['banners'] = 'pages/banners';
-
 $route['install'] = 'pages/page_not_found';
 
 $route['forgot-password'] = 'pages/forgot_password';
 $route['register'] = 'pages/register';
 $route['login-register'] = 'pages/login';
-
-$route['default_controller'] = 'pages/home';
+$route['default_controller'] = 'auth';
+$route['home'] = 'pages/home';
+// $route['default_controller'] = 'pages/home';
 $route['404_override'] = 'pages/page_404';
 $route['translate_uri_dashes'] = FALSE;
 

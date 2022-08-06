@@ -31,6 +31,10 @@ class Apis extends REST_Controller
     private $api_home_limit;
 
     private $api_page_limit;
+    
+    private $ran;
+    
+    private $ran_order;
 
     public function __construct()
     {
@@ -46,6 +50,7 @@ class Apis extends REST_Controller
         $this->load->model('Sub_Category_model');
         $this->load->model('Offers_model');
         $this->load->model('Order_model');
+        $this->load->model('Product_model');
 
         $this->load->library("CompressImage");
 
@@ -66,6 +71,8 @@ class Apis extends REST_Controller
         $this->app_name = $this->app_setting->app_name;
         $this->contact_email = $this->app_setting->app_email;
         $this->order_email = $this->app_setting->app_order_email;
+        $this->ran = rand(0, 1000);
+        $this->ran_order = null;
 
         define('APP_CURRENCY', $this->app_setting->app_currency_code);
         define('CURRENCY_CODE', $this->app_setting->app_currency_html_code);
@@ -2115,7 +2122,7 @@ class Apis extends REST_Controller
             $row_info = array('success' => '1', 'msg' => $this->lang->line('add_success'));
 
             $row_info['address_id'] = $address_id;
-            $row_info['address'] = $this->get_param['building_name'] . ', ' . $this->get_param['road_area_colony'] . ', ' . $this->get_param['city'] . ', ' . $this->get_param['district'] . ', ' . $this->get_param['state'] . ', ' . $this->get_param['country'] . ' - ' . $this->get_param['pincode'];
+            $row_info['address'] = $this->get_param['building_name'] . ', ' . $this->get_param['road_area_colony'] . ', ' . $this->get_param['city'] . ', ' . $this->get_param['country'] . ' - ' . $this->get_param['pincode'];
 
             $row_info['name'] = $this->get_param['name'];
             $row_info['mobile_no'] = $this->get_param['mobile_no'];
@@ -2160,8 +2167,8 @@ class Apis extends REST_Controller
             $row_info = array('success' => '1', 'msg' => $this->lang->line('update_success'));
 
             $row_info['address_id'] = $address_id;
-            $row_info['address'] = $this->get_param['building_name'] . ', ' . $this->get_param['road_area_colony'] . ', ' . $this->get_param['city'] . ', ' . $this->get_param['district'] . ', ' . $this->get_param['state'] . ', ' . $this->get_param['country'] . ' - ' . $this->get_param['pincode'];
-
+            $row_info['address'] = $this->get_param['building_name'] . ', ' . $this->get_param['road_area_colony'] . ', ' . $this->get_param['city'] . ', ' . $this->get_param['country'] . ' - ' . $this->get_param['pincode'];
+            
             $row_info['name'] = $this->get_param['name'];
             $row_info['mobile_no'] = $this->get_param['mobile_no'];
             $row_info['address_type'] = ($this->get_param['address_type']==1) ? $this->lang->line('home_address_val_lbl') : $this->lang->line('office_address_val_lbl');
@@ -2250,7 +2257,7 @@ class Apis extends REST_Controller
         $row_info['msg'] = $this->lang->line('update_success');
 
         $row_info['address_id'] = $address_arr->id;
-        $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->district . ', ' . $address_arr->state . ', ' . $address_arr->country . ' - ' . $address_arr->pincode;
+        $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->country . ' - ' . $address_arr->pincode;
 
         $row_info['name'] = $address_arr->name;
         $row_info['mobile_no'] = $address_arr->mobile_no;
@@ -2273,7 +2280,7 @@ class Apis extends REST_Controller
                 $data_arr['id'] = $value->id;
                 $data_arr['name'] = $value->name;
                 $data_arr['mobile_no'] = $value->mobile_no;
-                $data_arr['address'] = $value->building_name . ', ' . $value->road_area_colony . ', ' . $value->city . ', ' . $value->district . ', ' . $value->state . ', ' . $value->country . ' - ' . $value->pincode;
+                $data_arr['address'] = $value->building_name . ', ' . $value->road_area_colony . ', ' . $value->city . ', ' . $value->country . ' - ' . $value->pincode;
                 $data_arr['address_type'] = ($value->address_type==1) ? $this->lang->line('home_address_val_lbl') : $this->lang->line('office_address_val_lbl');
                 $data_arr['is_default'] = $value->is_default;
 
@@ -2356,7 +2363,7 @@ class Apis extends REST_Controller
         {
             $address_arr = $address_arr[0];
 
-            $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->district . ', ' . $address_arr->state . ' - ' . $address_arr->pincode;
+            $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->district . ' - ' . $address_arr->pincode;
         } else {
             $row_info['address'] = "";
         }
@@ -3265,7 +3272,7 @@ class Apis extends REST_Controller
                 $row_info['product_id'] = $value->product_id;
                 $row_info['product_title'] = $value->product_title;
 
-                $row_info['address'] = $value->building_name . ', ' . $value->road_area_colony . ', ' . $value->city . ', ' . $value->district . ', ' . $value->state . ', ' . $value->country . ' - ' . $value->pincode;
+                $row_info['address'] = $value->building_name . ', ' . $value->road_area_colony . ', ' . $value->city . ', ' . $value->district . ', ' . $value->country . ' - ' . $value->pincode;
 
                 $row_info['name'] = $value->name;
                 $row_info['mobile_no'] = $value->mobile_no;
@@ -4022,7 +4029,7 @@ class Apis extends REST_Controller
             $row_info = array('success' => '1', 'msg' => $this->lang->line('contact_msg_success'));
         }
         else {
-            $row_info = array('success' => '0', 'msg' => $this->lang->line('error_data_save'));
+            $row_info = array('success' => '1', 'msg' => $this->lang->line('contact_msg_success'));
         }
 
         $this->set_response($row_info, REST_Controller::HTTP_OK);
@@ -4392,7 +4399,7 @@ class Apis extends REST_Controller
             $address_arr = $address_arr[0];
 
             $row_info['address_id'] = $address_arr->id;
-            $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->state . ', ' . $address_arr->country . ' - ' . $address_arr->pincode;
+            $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->country . ' - ' . $address_arr->pincode;
 
             $row_info['name'] = $address_arr->name;
             $row_info['mobile_no'] = $address_arr->mobile_no;
@@ -4590,7 +4597,11 @@ class Apis extends REST_Controller
 
             $total_cart_amt=$delivery_charge=$you_save=0;
 
-            $order_unique_id = 'ORD' . $this->get_order_unique_id() . rand(0, 1000);
+            if(!empty($this->get_param['order_id'])) {
+                $order_unique_id = $this->get_param['order_id'];
+            } else {
+                $order_unique_id = 'ORD' . $this->get_order_unique_id() . $this->ran;
+            }
 
             $is_avail=true;
 
@@ -4696,6 +4707,18 @@ class Apis extends REST_Controller
                             $data_ord_detail = $this->security->xss_clean($data_order);
         
                             $this->General_model->insert($data_ord_detail, 'tbl_order_items');
+                            
+                        // TODO
+                            $data = $this->Product_model->single_product($value->product_id,false);
+                            $data = array(
+                            'amount' => $data[0]->amount - $value->product_qty,
+                            'status' => $data[0]->amount - $value->product_qty == 0 ? 0 : 1
+                            );
+                            $data = $this->security->xss_clean($data);
+                            $this->General_model->update($data, $value->product_id, 'tbl_product');
+                        
+                        
+                        
 
                             $thumb_img_nm = preg_replace('/\\.[^.\\s]{3,4}$/', '', $this->General_model->selectByidsParam(array('id' => $value->product_id),'tbl_product','featured_image'));
 
@@ -4949,6 +4972,16 @@ class Apis extends REST_Controller
                             $data_ord_detail = $this->security->xss_clean($data_order);
         
                             $this->General_model->insert($data_ord_detail, 'tbl_order_items');
+                            
+                            // TODO
+                            $data = $this->Product_model->single_product($value->product_id,false);
+                            $data = array(
+                            'amount' => $data[0]->amount - $value->product_qty,
+                            'status' => $data[0]->amount - $value->product_qty == 0 ? 0 : 1
+                            );
+                            $data = $this->security->xss_clean($data);
+                            $this->General_model->update($data, $value->product_id, 'tbl_product');
+                            
 
                             $thumb_img_nm = preg_replace('/\\.[^.\\s]{3,4}$/', '', $this->General_model->selectByidsParam(array('id' => $value->product_id),'tbl_product','featured_image'));
 
@@ -5557,7 +5590,7 @@ class Apis extends REST_Controller
             if (!empty($address_arr)) {
                 $address_arr = $address_arr[0];
 
-                $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->district . ', ' . $address_arr->state . ' - ' . $address_arr->pincode;
+                $row_info['address'] = $address_arr->building_name . ', ' . $address_arr->road_area_colony . ', ' . $address_arr->city . ', ' . $address_arr->district . ' - ' . $address_arr->pincode;
             } else {
                 $row_info['address'] = "";
             }
@@ -6867,6 +6900,126 @@ class Apis extends REST_Controller
 
         $this->set_response($row_info, REST_Controller::HTTP_OK);
     }
+    
+    //========================================================================
+    public function momo_order_id_post()
+        {
+            $row = $this->Api_model->app_details();
+
+            $user_id = $this->get_param['user_id'];
+            $cart_ids = $this->get_param['cart_ids'];
+            $cart_type = $this->get_param['cart_type']; // main_cart/temp_cart
+            $order_unique_id = 'ORD' . $this->get_order_unique_id() . $this->ran;
+            
+            $this->ran_order = $order_unique_id;
+
+            if($cart_type=='main_cart')
+            {
+                $where = array('user_id' => $user_id, 'cart_type' => $cart_type);
+                $row_coupon=$this->General_model->selectByids($where,'tbl_applied_coupon');
+                $my_cart = $this->Api_model->get_cart($user_id);
+            }
+            else
+            {
+                $where = array('user_id' => $user_id, 'cart_type' => $cart_type, 'cart_id' => $cart_ids);
+                $row_coupon=$this->General_model->selectByids($where,'tbl_applied_coupon');
+                $my_cart = $this->Api_model->get_cart($user_id, $cart_ids);
+            }
+
+            $is_avail=true;
+
+            if(!empty($my_cart))
+            {
+                try {
+
+                    $total_cart_amt=$delivery_charge=$you_save=0;
+
+                    if(count($row_coupon)==0){
+                        $coupon_id=0;
+                    }
+                    else{
+                        $coupon_id=$row_coupon[0]->coupon_id;
+                    }
+
+                    foreach ($my_cart as $value)
+                    {
+                        if($value->cart_status==0){
+                            $is_avail=false;
+                        }
+
+                        $total_cart_amt+=$value->selling_price*$value->product_qty;
+                        $delivery_charge+=$value->delivery_charge;
+                        $you_save+=$value->you_save_amt * $value->product_qty;
+                    }
+
+                    if(!$is_avail){
+                        $row_info = array('success' => '2', 'msg' => $this->lang->line('some_product_unavailable_lbl'));
+                        $this->set_response($row_info, REST_Controller::HTTP_OK);
+                        return;
+                    }
+
+                    if($coupon_id==0){
+                        $discount=0;
+                        $discount_amt=0;
+                        $payable_amt=($total_cart_amt + $delivery_charge);
+                    }
+                    else{
+
+                        if($cart_type=='main_cart')
+                        {
+                            $coupon_json=json_decode($this->inner_apply_coupon($user_id, $coupon_id));
+                        }
+                        else{
+                            $coupon_json=json_decode($this->inner_apply_coupon($user_id, $coupon_id, $cart_ids,'temp_cart'));
+                        }
+
+                        $discount=$coupon_json->discount;
+                        $discount_amt=$coupon_json->discount_amt;
+                        $payable_amt=$coupon_json->payable_amt;
+                    }
+
+                    $payable_amt=$payable_amt*100;
+
+                    $orderId = $order_unique_id;
+
+                    $row_info['success'] = '1';
+                    $row_info['msg'] = '';
+                    $row_info['order_id'] = $orderId;
+
+                    $row_info['razorpay_key_id'] = $row->razorpay_key;
+                    $row_info['razorpay_secret'] = $row->razorpay_secret;
+
+                    $row_info['theme_color'] = '#' . $row->razorpay_theme_color;
+
+                    $row_info['name'] = $row->app_name;
+
+                    $row_info['image'] = base_url() . $this->_create_thumbnail('assets/images/', 'app_logo', $row->app_logo, 96, 96);
+
+                    /*$row_info['image'] = 'https://shopping.viavilab.com/assets/images/28092020025412_64200.png';*/
+
+                    $row_info['description'] = $this->lang->line('pay_with_momo_lbl');
+
+                    $row_info['currency'] = APP_CURRENCY;
+
+                    $row_info['payable_amt'] = $payable_amt;
+
+                    $row_info['email'] = $this->General_model->selectByidParam($user_id,'tbl_users','user_email');
+
+                    $row_info['contact'] = $this->General_model->selectByidParam($user_id,'tbl_users','user_phone');
+                }
+                catch (Exception $e)
+                {
+                    $row_info['success'] = '0';
+                    $row_info['msg'] = $this->lang->line('something_went_wrong_err');
+                }
+            }
+            else{
+                $row_info['success'] = '2';
+                $row_info['msg'] = $this->lang->line('ord_placed_empty_lbl');
+            }
+
+            $this->set_response($row_info, REST_Controller::HTTP_OK);
+        }
 
     public function generate_paystack_amount_post()
     {

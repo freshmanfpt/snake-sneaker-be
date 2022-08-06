@@ -15,9 +15,9 @@
           <div class="section">
             <div class="section-body">
               <div class="form-group">
-                <label class="col-md-3 control-label">Profile Image :-
-                  <p class="control-label-help hint_lbl">(Recommended resolution: 300x300,400x400 or Square Image)</p>
-                  <p class="control-label-help hint_lbl">(Accept only png, jpg, jpeg, gif image files)</p>
+                <label class="col-md-3 control-label">Ảnh Profile :-
+                  <p class="control-label-help hint_lbl">(Size nên dùng 300x300,400x400 or Square Image)</p>
+                  <p class="control-label-help hint_lbl">(Chỉ nhận png, jpg, jpeg, gif)</p>
                 </label>
                 <div class="col-md-6">
                   <div class="fileupload_block">
@@ -31,13 +31,13 @@
               </div>
             </div>
             <div class="form-group">
-              <label class="col-md-3 control-label">Username :-</label>
+              <label class="col-md-3 control-label">Tên tài khoản :-</label>
               <div class="col-md-6">
                 <input type="text" name="username" id="username" value="<?=$row->username?>" class="form-control" required autocomplete="off">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-md-3 control-label">Password :-</label>
+              <label class="col-md-3 control-label">Mật khẩu :-</label>
               <div class="col-md-6">
                 <input type="password" name="password" id="password" value="" class="form-control" autocomplete="off">
               </div>
@@ -51,7 +51,7 @@
             
             <div class="form-group">
               <div class="col-md-9 col-md-offset-3">
-                <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                <button type="submit" name="submit" class="btn btn-primary">Lưu</button>
               </div>
             </div>
           </div>

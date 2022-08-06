@@ -128,6 +128,7 @@
 	$lang['cod_lbl'] = "Cash on Delivery";
 	$lang['cod_short_lbl'] = "COD";
 	$lang['paypal_lbl'] = "Paypal";
+	$lang['momo_lbl'] = "MoMo";
 	$lang['paypal_msg_lbl'] = "Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.";
 	$lang['stripe_lbl'] = "Stripe";
 	$lang['stripe_msg_lbl'] = "Pay via Stripe; you can pay with your credit card if you don’t have a Stripe account.";
@@ -137,9 +138,10 @@
 	$lang['razorpay_lbl'] = "Razorpay";
 	$lang['razorpay_note_lbl'] = "Razorpay is only work with indian currency (INR)";
 	$lang['pay_with_razorpay_lbl'] = "Pay with Razorpay";
+	$lang['pay_with_momo_lbl'] = "Thanh toán với MoMo";
 	$lang['razorpay_msg_lbl'] = "Pay via Razorpay; you can pay with your credit card if you don’t have a Razorpay account.";
 
-	$lang['coupon_save_msg_lbl'] = "You will save ### on this order!";		// please don't change ### because proper saving message will not display
+    $lang['coupon_save_msg_lbl'] = "Bạn tích kiệm được ### ở đơn hàng này!";		// please don't change ### because proper saving message will not display
 
 
 	// Other Labels

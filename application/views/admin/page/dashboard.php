@@ -388,9 +388,7 @@ $ci =& get_instance();
           data.addColumn('string', 'MONTHS');
           data.addColumn('number', '<?=$this->lang->line('total_payment_lbl')?>');
           data.addColumn('number', '<?=strtoupper($this->lang->line('cod_short_lbl'))?>');
-          data.addColumn('number', '<?=strtoupper($this->lang->line('paypal_lbl'))?>');
-          data.addColumn('number', '<?=strtoupper($this->lang->line('stripe_lbl'))?>');
-          data.addColumn('number', '<?=strtoupper($this->lang->line('razorpay_lbl'))?>');
+          data.addColumn('number', '<?=strtoupper($this->lang->line('momo_lbl'))?>');
 
           data.addRows([<?=$countStr?>]);
 
@@ -423,7 +421,7 @@ $ci =& get_instance();
             legend: {
               position: 'bottom'
             },
-            colors: ['#008000', '#808000','#00FFFF','#008080','#000080','#800080'],
+            colors: ['#008000', '#808000','#af2070'],
             lineWidth:2,
             animation: {
               startup: true,

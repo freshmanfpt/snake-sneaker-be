@@ -2,221 +2,221 @@
 	
 	// All Admin side labels
 	
-	$lang['dashboard_lbl'] = "Dashboard";
+	$lang['dashboard_lbl'] = "Trang Chủ";
 
-	$lang['ord_analysis_lbl'] = "Orders Analysis";
+	$lang['ord_analysis_lbl'] = "Thống Kê Đơn Hàng";
 
-	$lang['total_ords_lbl'] = "TOTAL ORDERS";
-	$lang['process_ord_lbl'] = "PROCESS";
-	$lang['delivered_ord_lbl'] = "DELIVERED";
-	$lang['cancellled_ord_lbl'] = "CANCELLED";
+	$lang['total_ords_lbl'] = "Tổng Đơn Hàng";
+	$lang['process_ord_lbl'] = "Đang Xử Lý";
+	$lang['delivered_ord_lbl'] = "Đã vận chuyển";
+	$lang['cancellled_ord_lbl'] = "Đã Hủy";
 
-	$lang['tran_analysis_lbl'] = "Transactions Analysis";
-	$lang['total_payment_lbl'] = "TOTAL PAYMENT";
+	$lang['tran_analysis_lbl'] = "Thống Kê Giao Dịch";
+	$lang['total_payment_lbl'] = "Tổng Thanh Toán";
 
-	$lang['status_filter_lbl'] = "Filter by Status";
-	$lang['payment_filter_lbl'] = "Filter by Payment";
-	$lang['date_filter_lbl'] = "Filter by Date";
+	$lang['status_filter_lbl'] = "Lọc theo trạng thái";
+	$lang['payment_filter_lbl'] = "Lọc theo phương thức thanh toán";
+	$lang['date_filter_lbl'] = "Lọc theo ngày";
 
-	$lang['months_of_lbl'] = "MONTHS OF";
+	$lang['months_of_lbl'] = "Tháng";
 
-	$lang['pending_refund_lbl'] = "Pending Refunds";
+	$lang['pending_refund_lbl'] = "Chờ Hoàn Trả";
 
 	// for category labels
-	$lang['cat_sort_lbl'] = "Category";
-	$lang['add_category_lbl'] = "Add Category";
-	$lang['edit_category_lbl'] = "Edit Category";
-	$lang['remove_category_confirm_lbl'] = "Your sub-category and products will be deleted which belong to this !";
-	$lang['category_wise_product_features_lbl'] = "Product Features Category Wise";
-	$lang['color_feature_desc_lbl'] = "If your product is available in multiple colors";
-	$lang['size_feature_desc_lbl'] = "If your product is available in different size";
+	$lang['cat_sort_lbl'] = "Thể Loại";
+	$lang['add_category_lbl'] = "Thêm Thể Loại";
+	$lang['edit_category_lbl'] = "Sửa Thể Loại";
+	$lang['remove_category_confirm_lbl'] = "Tất cả các sản phẩm thuộc thể loại này sẽ bị xóa !";
+	$lang['category_wise_product_features_lbl'] = "Sản Phẩm Tiêu Biểu Theo Thể loại";
+	$lang['color_feature_desc_lbl'] = "Nếu sản phẩm của bạn có nhiều mầu khác nhau";
+	$lang['size_feature_desc_lbl'] = "Nếu sản phẩm của bạn có nhiều kích cỡ khác nhau";
 
 	// for sub category labels
-	$lang['sub_category_lbl'] = "Sub-Categories";
-	$lang['add_sub_category_lbl'] = "Add Sub-Category";
-	$lang['edit_sub_category_lbl'] = "Edit Sub-Category";
-	$lang['sub_category_web_note_lbl'] = "Show Product's List in Sub Category List";
+	$lang['sub_category_lbl'] = "Thể loại phụ";
+	$lang['add_sub_category_lbl'] = "Thêm Thể Loại Phụ";
+	$lang['edit_sub_category_lbl'] = "Sửa Thể Loại Phụ";
+	$lang['sub_category_web_note_lbl'] = "Hiển thị tất cả sản phẩm theo thể loại phụ";
 
 	// for brands labels
-	$lang['brand_lbl'] = "Brand";
-	$lang['brands_lbl'] = "Brands";
-	$lang['add_brand_lbl'] = "Add Brand";
-	$lang['edit_brand_lbl'] = "Edit Brand";
+	$lang['brand_lbl'] = "Hãng";
+	$lang['brands_lbl'] = "Các Hãng";
+	$lang['add_brand_lbl'] = "Thêm Hãng";
+	$lang['edit_brand_lbl'] = "Sửa hãng";
 
 	// for offer labels
 	$lang['offers_lbl'] = "Offers";
-	$lang['add_offer_lbl'] = "Add Offer";
-	$lang['edit_offer_lbl'] = "Edit Offer";
+	$lang['add_offer_lbl'] = "Thêm Offer";
+	$lang['edit_offer_lbl'] = "Sửa Offer";
 
 	// for products labels
-	$lang['products_master_lbl'] = "Products Master";
-	$lang['products_lbl'] = "Products";
-	$lang['add_product_lbl'] = "Add Product";
-	$lang['edit_product_lbl'] = "Edit Product";
-	$lang['duplicate_product_lbl'] = "Duplicate Product";
+	$lang['products_master_lbl'] = "Quản Lý Sản Phẩm";
+	$lang['products_lbl'] = "Sản Phẩm";
+	$lang['add_product_lbl'] = "Thêm Sản Phẩm";
+	$lang['edit_product_lbl'] = "Sửa Sản Phẩm";
+	$lang['duplicate_product_lbl'] = "Sản Phẩm Bị Lặp";
 
 	// for banners labels
 	$lang['banners_lbl'] = "Banners";
-	$lang['add_banner_lbl'] = "Add Banners";
-	$lang['edit_banner_lbl'] = "Edit Banners";
+	$lang['add_banner_lbl'] = "Thêm Banners";
+	$lang['edit_banner_lbl'] = "Sửa Banners";
 
 	// for coupons labels
-	$lang['coupons_lbl'] = "Coupons";
-	$lang['add_coupon_lbl'] = "Add Coupon";
-	$lang['edit_coupon_lbl'] = "Edit Coupon";
+	$lang['coupons_lbl'] = "Mã Giảm Giá";
+	$lang['add_coupon_lbl'] = "Thêm Mã Giảm Giá";
+	$lang['edit_coupon_lbl'] = "Sửa Mã Giảm Giá";
 
 	// for users labels
-	$lang['users_lbl'] = "Users";
-	$lang['add_user_lbl'] = "Add User";
-	$lang['edit_user_lbl'] = "Edit User";
+	$lang['users_lbl'] = "Người Dùng";
+	$lang['add_user_lbl'] = "Thêm Người Dùng";
+	$lang['edit_user_lbl'] = "Sửa Người Dùng";
 
 	
-	$lang['orders_lbl'] = "Orders";
-	$lang['ord_list_lbl'] = "Order List";
+	$lang['orders_lbl'] = "Đơn Hàng";
+	$lang['ord_list_lbl'] = "Đơn Hàng";
 	$lang['ord_summary_lbl'] = "Order Summary";
 
-	$lang['transactions_lbl'] = "Transactions";
+	$lang['transactions_lbl'] = "Giao Dịch";
 
-	$lang['refunds_lbl'] = "Refunds";
+	$lang['refunds_lbl'] = "Hoàn Trả";
 
-	$lang['refund_details_lbl'] = "Refunds Details";
+	$lang['refund_details_lbl'] = "Chi Tiết Hoàn Trả";
 
-	$lang['contact_list_lbl'] = "Contact List";
-	$lang['sub_list_lbl'] = "Subjects List";
-	$lang['subjects_lbl'] = "Subject";
-	$lang['add_more_subject_lbl'] = "Add More Subject";
-	$lang['message_lbl'] = "Message";
-	$lang['contact_form_lbl'] = "Contact Form";
+	$lang['contact_list_lbl'] = "Danh Bạ";
+	$lang['sub_list_lbl'] = "Danh Sách Liên Hệ";
+	$lang['subjects_lbl'] = "Liên Hệ";
+	$lang['add_more_subject_lbl'] = "Thêm Liên Hệ";
+	$lang['message_lbl'] = "Nội Dung";
+	$lang['contact_form_lbl'] = "Danh Sách Liên Lạc";
 
 	/* for notification section */
 
-	$lang['notification_lbl'] = "Notification";
+	$lang['notification_lbl'] = "Thông Báo";
 
-	$lang['notification_settings_lbl'] = "Notification Settings";
-	$lang['send_notification_lbl'] = "Send Notification";
+	$lang['notification_settings_lbl'] = "Cài Đặt Thông Báo";
+	$lang['send_notification_lbl'] = "Gửi Thông Báo";
 
-	$lang['no_result_found_msg'] = "No result found!";
+	$lang['no_result_found_msg'] = "Không Có !";
 
-	$lang['select_type_lbl'] = "Select Type";
+	$lang['select_type_lbl'] = "Chọn Loại";
 
 	$lang['one_signal_id_lbl'] = "OneSignal App ID";
 	$lang['one_signal_rest_key_lbl'] = "OneSignal Rest Key";
 
-	$lang['noti_title_lbl'] = "Title";
-	$lang['noti_message_lbl'] = "Message";
+	$lang['noti_title_lbl'] = "Tiêu Đề";
+	$lang['noti_message_lbl'] = "Nội Dung";
 
-	$lang['noti_image_lbl'] = "Image";
+	$lang['noti_image_lbl'] = "Ảnh";
 
-	$lang['external_link_lbl'] = "External Link";
+	$lang['external_link_lbl'] = "Link Liên Kết";
 
-	$lang['notification_for_lbl'] = "Notification for";
+	$lang['notification_for_lbl'] = "Thông Báo Cho";
 
-	$lang['notification_confirm_msg'] = "Notification will arrive to all users";
+	$lang['notification_confirm_msg'] = "Thông báo sẽ được gửi đến người dùng";
 
-	$lang['noti_category_hint_lbl'] = "To directly open products list of this category when click on notification";
-	$lang['noti_sub_category_hint_lbl'] = "To directly open products list of this sub category when click on notification";
-	$lang['noti_brand_hint_lbl'] = "To directly open products list of this brand when click on notification";
-	$lang['noti_offer_hint_lbl'] = "To directly open products list of this offer when click on notification";
-	$lang['noti_banner_hint_lbl'] = "To directly open products list of this banner when click on notification";
-	$lang['noti_product_hint_lbl'] = "To directly open single product when click on notification";
+	$lang['noti_category_hint_lbl'] = "Khi mở thông báo sẽ mở danh sách sản phẩm thuộc thể loại này";
+	$lang['noti_sub_category_hint_lbl'] = "Khi mở thông báo sẽ mở danh sách sản phẩm thuộc thể loại phụ này";
+	$lang['noti_brand_hint_lbl'] = "Khi mở thông báo sẽ mở danh sách sản phẩm thuộc hãng này";
+	$lang['noti_offer_hint_lbl'] = "Khi mở thông báo sẽ mở danh sách sản phẩm thuộc offer này";
+	$lang['noti_banner_hint_lbl'] = "Khi mở thông báo sẽ mở danh sách sản phẩm thuộc banner này";
+	$lang['noti_product_hint_lbl'] = "Khi mở thông báo sẽ mở sản phẩm này";
 
 	/* end notification section */
 
-	$lang['web_settings_lbl'] = "Web Settings";
+	$lang['web_settings_lbl'] = "Cài Đặt Web";
 
-	$lang['android_settings_lbl'] = "App Settings";
+	$lang['android_settings_lbl'] = "Cài Đặt App";
 
-	$lang['general_settings_lbl'] = "General Settings";
+	$lang['general_settings_lbl'] = "Cài Đặt Chung";
 	
-	$lang['settings_lbl'] = "Settings";
-	$lang['android_app_lbl'] = "Android App";	
+	$lang['settings_lbl'] = "Cài Đặt";
+	$lang['android_app_lbl'] = "App Android";	
 
-	$lang['home_content_lbl'] = "Web/App Home Content";
+	$lang['home_content_lbl'] = "Nội Dung Home Web/App";
 
-	$lang['delete_instruction_lbl'] = "Delete Instruction";
+	$lang['delete_instruction_lbl'] = "Xóa Hướng Dẫn";
 
-	$lang['delete_instruction_url_lbl'] = "Delete Instruction URL";
+	$lang['delete_instruction_url_lbl'] = "Xóa Đường Link Hướng Dẫn";
 
-	$lang['section_title_lbl'] = "Section Title";
-	$lang['for_web_lbl'] = "For Website";
-	$lang['for_app_lbl'] = "For Application";
+	$lang['section_title_lbl'] = "Tiêu Đề Mục";
+	$lang['for_web_lbl'] = "Cho Website";
+	$lang['for_app_lbl'] = "Cho App";
 
-	$lang['api_urls_lbl'] = "Api Urls";
+	$lang['api_urls_lbl'] = "Link API";
 
-	$lang['general_setting_lbl'] = "General Settings";
-	$lang['page_setting_lbl'] = "Page Settings";
-	$lang['smtp_setting_lbl'] = "SMTP Settings";
-	$lang['add_faq_lbl'] = "Add FAQ";
-	$lang['edit_faq_lbl'] = "Edit FAQ";
+	$lang['general_setting_lbl'] = "Cài Đặt Chung";
+	$lang['page_setting_lbl'] = "Cài Đặt Trang";
+	$lang['smtp_setting_lbl'] = "Cài Đặt SMTP";
+	$lang['add_faq_lbl'] = "Thêm FAQ";
+	$lang['edit_faq_lbl'] = "Sửa FAQ";
 
-	$lang['otp_op_lbl'] = "Enable/Disable Email OTP Verification";
-	$lang['otp_op_hint_lbl'] = "Your can enable/disable email OTP verification from both app. and website";
+	$lang['otp_op_lbl'] = "Bật/Tắt Xác Thực Bằng Email OTP";
+	$lang['otp_op_hint_lbl'] = "Bật/Tắt Xác Thực Bằng Email OTP cả web lẫn app";
 	
-	$lang['add_payment_faq_lbl'] = "Add Payment FAQ";
-	$lang['edit_payment_faq_lbl'] = "Edit Payment FAQ";
+	$lang['add_payment_faq_lbl'] = "Thêm FAQ Thanh Toán";
+	$lang['edit_payment_faq_lbl'] = "Sửa FAQ Thanh Toán";
 
 	// Web Settings page labels
 
-	$lang['site_nm_lbl'] = "Site Name";
-	$lang['site_desc_lbl'] = "Site Description";
-	$lang['site_keyword_lbl'] = "Site Keywords";
-	$lang['site_keyword_place_lbl'] = "Enter Site keywords for SEO";
+	$lang['site_nm_lbl'] = "Tên Trang";
+	$lang['site_desc_lbl'] = "Mô tả trang";
+	$lang['site_keyword_lbl'] = "Từ Khóa Trang";
+	$lang['site_keyword_place_lbl'] = "Thêm từ khóa cho SEO";
 
-	$lang['site_logo1_lbl'] = "Site Logo-1";
-	$lang['site_logo2_lbl'] = "Site Logo-2";
-	$lang['site_logo2_note_lbl'] = "Image Background must be WHITE";
+	$lang['site_logo1_lbl'] = "Logo-1 Trang";
+	$lang['site_logo2_lbl'] = "Logo-2 Trang";
+	$lang['site_logo2_note_lbl'] = "NỀN BẮT BUỘC PHẢI LÀ MẦU TRẮNG";
 
-	$lang['site_favicon_lbl'] = "Site Favicon";
+	$lang['site_favicon_lbl'] = "Icon Trang";
 
 
-	$lang['libraries_load_from_lbl'] = "External Libraries From";
+	$lang['libraries_load_from_lbl'] = "Libraries Ngoài";
 	$lang['local_lbl'] = "Local";
 	$lang['cdn_lbl'] = "CDN";
-	$lang['cdn_recommended_lbl'] = "CDN (recommended)";
-	$lang['local_hint_lbl'] = "Web related libraries call from server";
-	$lang['cdn_hint_lbl'] = "CDN for web related libraries to speed up your websites";
+	$lang['cdn_recommended_lbl'] = "CDN (Khuyến khích cài)";
+	$lang['local_hint_lbl'] = "Libraries Ngoài cho Web";
+	$lang['cdn_hint_lbl'] = "CDN cho Libraries Ngoài (Web) để xử lý nhanh hơn";
 
-	$lang['header_code_lbl'] = "Header Code";
-	$lang['header_code_place_lbl'] = "Custom CSS or JS Script";
+	$lang['header_code_lbl'] = "Code Header";
+	$lang['header_code_place_lbl'] = "Custom CSS hoặc JS Script";
 
-	$lang['footer_code_lbl'] = "Footer Code";
-	$lang['footer_code_place_lbl'] = "Custom CSS or JS Script";
+	$lang['footer_code_lbl'] = "Code Footer";
+	$lang['footer_code_place_lbl'] = "Custom CSS hoặc JS Script";
 
-	$lang['copyright_txt_lbl'] = "Copyright Text";
+	$lang['copyright_txt_lbl'] = " Text Copyright";
 
 		/*------ Page Settings -------*/
 
 		$lang['google_recaptcha_lbl'] = "Google reCAPTCHA";
 
 		$lang['ads_place_lbl'] = "Ads Places";
-		$lang['about_us_lbl'] = "About Us";
-		$lang['contact_us_lbl'] = "Contact Us";
+		$lang['about_us_lbl'] = "Về Chúng Tôi";
+		$lang['contact_us_lbl'] = "Liên Hệ";
 		$lang['faq_lbl'] = "FAQ";
-		$lang['term_of_use_lbl'] = "Terms Of Use";
-		$lang['privacy_lbl'] = "Privacy";
+		$lang['term_of_use_lbl'] = "Điều Khoản";
+		$lang['privacy_lbl'] = "Riêng Tư";
 
-		$lang['privacy_policy_url_lbl'] = "Privacy Policy URL";
+		$lang['privacy_policy_url_lbl'] = "Chính Sách Riêng Tư";
 
-		$lang['refund_return_policy_lbl'] = "Refund & Reture Policy";
-		$lang['cancellation_lbl'] = "Cancellation";
-		$lang['payments_lbl'] = "Payments";
+		$lang['refund_return_policy_lbl'] = "Chính Sách Hoàn Trả";
+		$lang['cancellation_lbl'] = "Hủy bỏ";
+		$lang['payments_lbl'] = "Thanh Toán";
 
 		/*------- End page settings -------*/
 
 		/*--------Home page settings-------*/
 
-		$lang['home_setting_note_lbl'] = "Here you can manage your home content for web/app. How many things will show or not in home.";
+		$lang['home_setting_note_lbl'] = "Tắt bật những nội dung hiển thị ở trang Home.";
 
-		$lang['home_slider_op_lbl'] = "Show Slider On Home";
-		$lang['home_brand_op_lbl'] = "Show Brand List On Home";
-		$lang['home_category_op_lbl'] = "Show Category List On Home";
-		$lang['home_offer_op_lbl'] = "Show Offer List On Home";
-		$lang['home_hot_deal_op_lbl'] = "Show Today Deal List On Home";
-		$lang['home_latest_op_lbl'] = "Show Latest Products On Home";
-		$lang['home_top_rated_op_lbl'] = "Show Top Rated Products On Home";
-		$lang['home_top_rated_op_hint_lbl'] = "Minimum (3 Default) Rate required to show products in this list. You can change this minimum from beside input)";
-		$lang['home_cat_wise_op_lbl'] = "Show Category Wise Products On Home";
-		$lang['home_recent_op_lbl'] = "Show Recent Viewed Products On Home";
+		$lang['home_slider_op_lbl'] = "Slider";
+		$lang['home_brand_op_lbl'] = "Hãng";
+		$lang['home_category_op_lbl'] = "Thể Loại";
+		$lang['home_offer_op_lbl'] = "Offer Trang Home";
+		$lang['home_hot_deal_op_lbl'] = "Deal Trong Ngày";
+		$lang['home_latest_op_lbl'] = "Sản Phẩm Mới Nhất";
+		$lang['home_top_rated_op_lbl'] = "Sản phẩm Top";
+		$lang['home_top_rated_op_hint_lbl'] = "Tối thiểu 3 đánh giá để hiển thị (Có thể thay đổi mức tốt thiểu)";
+		$lang['home_cat_wise_op_lbl'] = "Danh Sách Thể Loại";
+		$lang['home_recent_op_lbl'] = "Sản Phầm Đã Xem";
 		
 		/*----------end home page----------*/
 
@@ -224,40 +224,40 @@
 
 	// Ads Places Tab Labels
 
-	$lang['home_page_ads_lbl'] = "Home Page Ads (Banner Ads Size is Width:1170, Height:151)";
-	$lang['banner_ads_status_lbl'] = "Banner Ad Status";
-	$lang['banner_ads_code_lbl'] = "Banner Ad Code";
+	$lang['home_page_ads_lbl'] = "Ads Trang Home (Size ổn định là Width:1170, Height:151)";
+	$lang['banner_ads_status_lbl'] = "Status Banner Ad ";
+	$lang['banner_ads_code_lbl'] = "Code Banner Ad";
 
-	$lang['product_page_ads_lbl'] = "Product Page Ads (Banner Ads Size is Width:300)";
-	$lang['ads_status_lbl'] = "Ad Status";
-	$lang['ads_code_lbl'] = "Ad Code";
+	$lang['product_page_ads_lbl'] = "Ads Sản Phẩm (Size ổn định là Width:300)";
+	$lang['ads_status_lbl'] = "Status Ad";
+	$lang['ads_code_lbl'] = "Code Ad";
 
 	// End ads places tab
 
 
 	// General Settings Tab Labels
 
-	$lang['order_email_lbl'] = "Order Notification Email";
-	$lang['order_email_note_lbl'] = "Note: This email is required when users placed new order.";
+	$lang['order_email_lbl'] = "Nhận Mail Đơn Hàng";
+	$lang['order_email_note_lbl'] = "Mail Nhận Đơn Hàng Khi Có Người Dùng Đặt.";
 
 	$lang['contact_email_lbl'] = "Email";
-	$lang['contact_email_note_lbl'] = "Note: This email is required when users contact request.";
+	$lang['contact_email_note_lbl'] = "Mail Khi Người Dùng";
 
-	$lang['currency_code_lbl'] = "Currency Code";
-	$lang['currency_sign_lbl'] = "Currency Sign";
+	$lang['currency_code_lbl'] = "Tiền Tệ";
+	$lang['currency_sign_lbl'] = "Ký Tự";
 
-	$lang['admin_title_lbl'] = "Admin Title";
-	$lang['admin_logo_lbl'] = "Admin Logo";
-	$lang['admin_favicon_lbl'] = "Admin Favicon";
+	$lang['admin_title_lbl'] = "Title Admin";
+	$lang['admin_logo_lbl'] = "Logo Admin";
+	$lang['admin_favicon_lbl'] = "Icon Admin";
 
 	$lang['author_lbl'] = "Author";
-	$lang['app_description_lbl'] = "App Description";
-	$lang['app_version_lbl'] = "App Version";
-	$lang['contact_lbl'] = "Contact";
+	$lang['app_description_lbl'] = "Mô Tả App";
+	$lang['app_version_lbl'] = "Phiên Bản App";
+	$lang['contact_lbl'] = "Liên Hệ";
 	$lang['website_lbl'] = "Website";
-	$lang['developed_by_lbl'] = "Developed By";
+	$lang['developed_by_lbl'] = "Phát Triển Bởi";
 
-	$lang['social_media_lbl'] = "Social Media";
+	$lang['social_media_lbl'] = "MXH";
 	$lang['facebook_lbl'] = "Facebook";
 	$lang['twitter_lbl'] = "Twitter";
 	$lang['youtube_lbl'] = "YouTube";
@@ -267,12 +267,12 @@
 
 	// Payment Tab Labels
 
-	$lang['paypal_payment_mode_lbl'] = "Paypal Payment Mode";
+	$lang['paypal_payment_mode_lbl'] = "Chế độ Paypal";
 	$lang['paypal_sendbox_mode_lbl'] = "Sandbox";
 	$lang['paypal_live_mode_lbl'] = "Live";
 
 	$lang['paypal_client_id_lbl'] = "Client ID";
-	$lang['paypal_mode_note_lbl'] = "Note: This must be changed based on Paypal Payment Mode";
+	$lang['paypal_mode_note_lbl'] = "Phải thay khi đổi chế độ Paypal";
 
 	$lang['publisher_key_lbl'] = "Publishable key";
 
@@ -290,147 +290,146 @@
 
 	// SMTP Settings Tab Labels
 
-	$lang['smtp_library_lbl'] = "SMTP Library";
-	$lang['smtp_library_mailer_lbl'] = "PHP Mailer";
-	$lang['smtp_library_ci_lbl'] = "Codeigniter Email";
+	$lang['smtp_library_lbl'] = "Library SMTP";
+	$lang['smtp_library_mailer_lbl'] = "Mailer PHP";
+	$lang['smtp_library_ci_lbl'] = "Email Codeigniter";
 
-	$lang['smtp_type_lbl'] = "SMTP Type";
+	$lang['smtp_type_lbl'] = "Type SMTP";
 
-	$lang['gmail_smtp_lbl'] = "Gmail SMTP";
-	$lang['server_smtp_lbl'] = "Server SMTP";
+	$lang['gmail_smtp_lbl'] = "SMTP Gmail";
+	$lang['server_smtp_lbl'] = "SMTP Server";
 
-	$lang['smtp_host_lbl'] = "SMTP Host";
+	$lang['smtp_host_lbl'] = "Host SMTP";
 	$lang['smtp_secure_lbl'] = "SMTPSecure";
 	$lang['smtp_port_no_lbl'] = "Port No.";
 
-	$lang['smtp_note_point1_lbl'] = "Please check PHP document for Mail Configuration. If your domain name: www.example.com then Create mail id info@examaple.com same like your domain name and add.";
+	$lang['smtp_note_point1_lbl'] = "Xem Document phần cài đặt mail. Nếu tên miền của bạn là example.com thì hãy đặt mail với đúng tên miền là admin@example.com.";
 
-	$lang['smtp_note_point2_lbl'] = "This configure is required otherwise forgot email or mail feature will not be work.";
+	$lang['smtp_note_point2_lbl'] = "Phải có email thì các chức năng dùng Mail mới có thể hoạt động";
 
 	// End smtp settings tab labels
 
 
 	// Top Header labels with profile
 
-	$lang['visit_web_lbl'] = "Visit Website";
+	$lang['visit_web_lbl'] = "Vào Website";
 
-	$lang['new_ord_lbl'] = "New Order";
-	$lang['ordering_lbl'] = "Ordering";
-	$lang['no_new_ord_lbl'] = "No New Orders!";
+	$lang['new_ord_lbl'] = "Đơn Hàng Mới";
+	$lang['ordering_lbl'] = "Đặt Đơn";
+	$lang['no_new_ord_lbl'] = "Không có đơn hàng mới!";
 
 	$lang['admin_lbl'] = "Admin";
 
 	$lang['profile_lbl'] = "Profile";
 
-	$lang['backup_db_lbl'] = "Backup Database";
+	$lang['backup_db_lbl'] = "Database Backup";
 
 	// End top header labels
 
 	$lang['note_lbl'] = "Note";
 
-	$lang['add_new_lbl'] = "Add New";
+	$lang['add_new_lbl'] = "Thêm Mới";
 
-	$lang['enable_lbl'] = "Enable";
+	$lang['enable_lbl'] = "Bật";
 
-	$lang['disable_lbl'] = "Disable";
+	$lang['disable_lbl'] = "Tắt";
 
-	$lang['edit_lbl'] = "Edit";
+	$lang['edit_lbl'] = "Sửa";
 
-	$lang['delete_lbl'] = "Delete";
+	$lang['delete_lbl'] = "Xóa";
 
-	$lang['update_lbl'] = "Update";
+	$lang['update_lbl'] = "Cập Nhật";
 
-	$lang['deleted_lbl'] = "Deleted";
-	$lang['deleted_data_lbl'] = "Your data has been deleted.";
+	$lang['deleted_lbl'] = "Xóa";
+	$lang['deleted_data_lbl'] = "Đã xóa data.";
 
-	$lang['view_lbl'] = "Views";
+	$lang['view_lbl'] = "Xem";
 
-	$lang['rating_lbl'] = "Ratings";
+	$lang['rating_lbl'] = "Đánh Giá";
 
-	$lang['print_lbl'] = "Print";
+	$lang['print_lbl'] = "In";
 
-	$lang['default_lbl'] = "Default";
+	$lang['default_lbl'] = "Mặc Định";
 
-	$lang['export_excel_lbl'] = "Export Excel";
+	$lang['export_excel_lbl'] = "Xuất Excel";
 
-	$lang['mode_lbl'] = "Mode";
+	$lang['mode_lbl'] = "Chế độ";
 
-	$lang['payment_id_lbl'] = "Payment ID";
+	$lang['payment_id_lbl'] = "ID Payment";
 
-	$lang['refund_amt_lbl'] = "Refund Amt.";	
+	$lang['refund_amt_lbl'] = "AMT Hoàn Trả.";	
 
-	$lang['last_updated_lbl'] = "Last Updated";
+	$lang['last_updated_lbl'] = "Cập Nhật Lần Cưới";
 
-	$lang['date_lbl'] = "Date";
+	$lang['date_lbl'] = "Ngày";
 
-	$lang['default_refund_acc_lbl'] = "Default Refund Account";
+	$lang['default_refund_acc_lbl'] = "Tài Khoản Hoàn Trả Mặc Định";
 
-	$lang['review_images_lbl'] = "Product Review Images";
+	$lang['review_images_lbl'] = "Ảnh Review Sản Phẩm";
 
-	$lang['remove_lbl'] = "Remove";
+	$lang['remove_lbl'] = "Xóa";
 
-	$lang['show_on_home_lbl'] = "Show on home";
+	$lang['show_on_home_lbl'] = "Hiển Thị ở home";
 
-	$lang['remove_to_home_lbl'] = "Remove home";
+	$lang['remove_to_home_lbl'] = "Xóa home";
 
-	$lang['previous_lbl'] = "Previous";
-	$lang['next_lbl'] = "Next";
+	$lang['previous_lbl'] = "Trước";
+	$lang['next_lbl'] = "Sau";
 
 	$lang['sales_lbl'] = "Sales";
 	$lang['user_lbl'] = "User";
-	$lang['amount_lbl'] = "Amount";
-	$lang['status_lbl'] = "Status";
-	$lang['register_on_lbl'] = "Register On";
+	$lang['amount_lbl'] = "Số Lượng";
+	$lang['status_lbl'] = "Trạng Thái";
+	$lang['register_on_lbl'] = "Đăng ký trên";
 
 
-	$lang['top_sales_products_lbl'] = "Top Selling Products";
-	$lang['todays_ord_lbl'] = "Today's Orders";
+	$lang['top_sales_products_lbl'] = "Top sản phẩm bán chạy";
+	$lang['todays_ord_lbl'] = "Đơn hàng hôm nay";
 
-	$lang['duplicate_lbl'] = "Make Duplicate";
+	$lang['duplicate_lbl'] = "Tạo bản sao";
 
-	$lang['select_all_lbl'] = "Select All";
+	$lang['select_all_lbl'] = "Chọn All";
 
-	$lang['delete_all_lbl'] = "Delete All";
+	$lang['delete_all_lbl'] = "Xóa All";
 
-	$lang['action_lbl'] = "Action";
+	$lang['action_lbl'] = "Hành Động";
 
-	$lang['set_todays_deal_lbl'] = "Set to todays Deal";
-	$lang['remove_todays_deal_lbl'] = "Remove to todays Deal";
+	$lang['set_todays_deal_lbl'] = "Cài Deal Hôm Nay";
+	$lang['remove_todays_deal_lbl'] = "Xóa Deal Hôm Nay";
 	
 
-	$lang['recommended_resolution_lbl'] = "Recommended resolution";
-	$lang['we_recommended_img_lbl'] = "We recommended to upload jpg, jpeg, JPG, JPEG image files for best compression ratio";
-	$lang['recommended_img_lbl'] = "Recommended jpg, jpeg, JPG, JPEG image files for best compression ratio";
+	$lang['recommended_resolution_lbl'] = "Size ổn định";
+	$lang['we_recommended_img_lbl'] = "Nên upload jpg, jpeg, JPG, JPEG files cho tỷ lệ tốt nhất";
+	$lang['recommended_img_lbl'] = "Nên jpg, jpeg, JPG, JPEG image files cho tỷ lệ tốt nhất";
 
-	$lang['accept_img_files_lbl'] = "Accept png, jpg, jpeg, PNG, JPG, JPEG image files";
+	$lang['accept_img_files_lbl'] = "Chỉ nhận png, jpg, jpeg, PNG, JPG, JPEG image files";
 	
-	$lang['search_lbl'] = "Search here...";	
+	$lang['search_lbl'] = "Tìm kiếm";	
 
-	$lang['successfully_lbl'] = "Successfully";
+	$lang['successfully_lbl'] = "Thành Công";
 
-	$lang['created_on_lbl'] = "Created On";
+	$lang['created_on_lbl'] = "Tạo Tại";
 
 	$lang['wishlist_lbl'] = "Wishlist";
-	$lang['cart_lbl'] = "My Cart";
+	$lang['cart_lbl'] = "Giỏ Hàng";
 	$lang['img_lbl'] = "Image";
-	$lang['product_lbl'] = "Product";
+	$lang['product_lbl'] = "Sản Phẩm";
 
 	$lang['user_nm_lbl'] = "User Name";
 	$lang['user_phone_lbl'] = "User Phone";
 	$lang['user_email_lbl'] = "User Email";
 
-	$lang['page_title_lbl'] = "Page Title";
+	$lang['page_title_lbl'] = "Title Page";
 	$lang['content_lbl'] = "Content";
-	$lang['page_status_lbl'] = "Page Status";
+	$lang['page_status_lbl'] = "Status Page";
 
 	$lang['question_lbl'] = "Question";
 	$lang['question_place_lbl'] = "Enter question";
 	$lang['answer_lbl'] = "Answer";
 	$lang['answer_place_lbl'] = "Enter answer";
 
-	$lang['add_more_lbl'] = "Add More";
-
-	$lang['min_rate_lbl'] = "Minimum Rate";
+	$lang['add_more_lbl'] = "Thêm";
+	$lang['min_rate_lbl'] = "Rate tối thiểu";
 
 
 	// End
@@ -468,79 +467,79 @@
 	
 	// All kind of messages
 
-	$lang['add_msg'] = "Added successfully.";
+	$lang['add_msg'] = "Thêm Thành Công.";
 
-	$lang['add_error'] = "Error in adding data !!";
+	$lang['add_error'] = "Có lỗi đã xẩy ra, xin vui lòng thử lại !";
 
-	$lang['update_msg'] = "Updated successfully.";
+	$lang['update_msg'] = "Cật Nhật Thành Công.";
 
-	$lang['update_error'] = "Error in updating data !!";
+	$lang['update_error'] = "Có lỗi đã xẩy ra, xin vui lòng thử lại !";
 
-	$lang['delete_msg'] = "Delete successfully.";
+	$lang['delete_msg'] = "Xóa Thành Công.";
 
-	$lang['enable_msg'] = "Enable successfully.";
+	$lang['enable_msg'] = "Bật Thành Công.";
 
-	$lang['disable_msg'] = "Disable successfully.";
+	$lang['disable_msg'] = "Tắt Thành Công.";
 
-	$lang['action_confirm_msg'] = "Do you really want to perform?";
+	$lang['action_confirm_msg'] = "Bạn Có Muốn Những Thay Đổi Này?";
 
-	$lang['action_done_msg'] = "You have successfully done";
+	$lang['action_done_msg'] = "Thành Công";
 
-	$lang['no_record_select_msg'] = "No record selected !";
+	$lang['no_record_select_msg'] = "Không có bản ghi được chọn !";
 
-	$lang['today_enable_msg'] = "Product(s) successfully set to today's deal.";
+	$lang['today_enable_msg'] = "Sản phẩm đã thành deal trong ngày.";
 
-	$lang['today_disable_msg'] = "Product(s) successfully removed from today's deal.";
+	$lang['today_disable_msg'] = "Sản phẩm đã xóa khỏi deal trong ngày.";
 
-	$lang['notification_msg'] = "Notification send successfully.";
+	$lang['notification_msg'] = "Gửi thông báo thành công.";
 
-	$lang['input_required'] = "Enter all required fields !!";
+	$lang['input_required'] = "Điền tất cả các field được yêu cầu !!";
 
-	$lang['input_invalid'] = "Entered data is invalid to this field !!";	
+	$lang['input_invalid'] = "Data không hợp lệ !!";	
 
-	$lang['register_success'] = "Registration successfully done.";
+	$lang['register_success'] = "Đăng ký thành công.";
 
-	$lang['register_failed'] = "Registration is failed !!";
+	$lang['register_failed'] = "Đăng ký thất bại !!";
 
-	$lang['category_show'] = "Now category show on home page.";
+	$lang['category_show'] = "Thể loại đã được hiển thị trên home.";
 
-	$lang['category_remove'] = "Category is remove from home page.";
+	$lang['category_remove'] = "Category đã bị xóa trên trang home.";
 
-	$lang['bank_remove'] = "Bank data is successfully deleted.";
+	$lang['bank_remove'] = "Data Bank xóa thành công.";
 
-	$lang['something_went_wrong_err'] = "Something went to wrong!";
+	$lang['something_went_wrong_err'] = "Có lỗi đã xẩy ra !";
 
-	$lang['login_success'] = "Login successfully";
+	$lang['login_success'] = "Đăng nhập thành công";
 
-	$lang['logout_success'] = "Logout successfully";
+	$lang['logout_success'] = "Đăng xuất thành công";
 
-	$lang['login_tab_lbl'] = "Web Login Status";
+	$lang['login_tab_lbl'] = "Status Login Web ";
 
-	$lang['google_login_lbl'] = "Google Login";
+	$lang['google_login_lbl'] = "Login Google";
 
-	$lang['fb_login_lbl'] = "Facebook Login";
+	$lang['fb_login_lbl'] = "Login Facebook";
 
-	$lang['fb_app_id_lbl'] = "App ID";
+	$lang['fb_app_id_lbl'] = "ID App";
 
 	$lang['fb_app_secret_lbl'] = "App Secret";
 
 	$lang['user_type_lbl'] = "User Type";
-	$lang['register_platform_lbl'] = "Platform";
+	$lang['register_platform_lbl'] = "Nền tảng";
 
 	$lang['per_off_lbl'] = "% OFF";
 
-	$lang['billing_shipping_section_lbl'] = "Billing & Shipping Details";
+	$lang['billing_shipping_section_lbl'] = "Chi tiết Hóa đơn và Vận chuyển";
 
-	$lang['cancel_by_admin_lbl'] = "Cancel by Admin";
+	$lang['cancel_by_admin_lbl'] = "Được hủy bởi Admin";
 
-	$lang['smtp_check_email_lbl'] = "Check Mail Configuration";
+	$lang['smtp_check_email_lbl'] = "Kiểm tra cài đặt mail";
 	$lang['smtp_check_email_sort_lbl'] = "Send test mail to your email to check Email functionality work or not.";
 
 	$lang['smtp_check_email_demo_msg_lbl'] = "This Is The Demo Mail To Check SMTP Configuration.";
 
-	$lang['mail_send_msg'] = "Mail Sent!";
-	$lang['mail_send_success_msg'] = "Mail sent successfully.";
+	$lang['mail_send_msg'] = "Mail Đã Được Gửi!";
+	$lang['mail_send_success_msg'] = "Mail gửi thành công.";
 
-	$lang['mail_send_err_msg'] = "Mail not sent!";
+	$lang['mail_send_err_msg'] = "Mail không được gửi!";
 
-	$lang['click_here_login_lbl'] = "Click here to Login";
+	$lang['click_here_login_lbl'] = "Bấm đây để login";
