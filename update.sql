@@ -15,4 +15,4 @@ ALTER TABLE `tbl_applied_coupon` CHANGE `cart_id` `cart_id` VARCHAR(60) NOT NULL
 
 ALTER TABLE `tbl_bank_details` ADD `is_deleted` VARCHAR(1) NOT NULL DEFAULT 'N' AFTER `is_default`;
 
-ALTER TABLE `tbl_settings` ADD `delete_instruction` LONGTEXT NOT NULL AFTER `app_home_recent_opt`; 
+ALTER TABLE `tbl_settings` ADD `delete_instruction` LONGTEXT NOT NULL AFTER `app_home_recent_opt`;
