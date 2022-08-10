@@ -158,13 +158,17 @@ class Order extends Checkout
                         $data_usr = $this->security->xss_clean($data_arr);
 
                         $this->General_model->insert($data_usr, 'tbl_order_status');
+                        try {
+                            $data = $this->Product_model->single_product($value2->product_id,false);
+                            $data = array(
+                                'amount' => $data->amount - 1
+                            );
+                            $data = $this->security->xss_clean($data);
+                            $this->common_model->update($data, $value2->product_id, 'tbl_product');
+                        } catch (Exception $e) {
+                            $response=array('status' => 0, 'msg' => $e->getMessage());
+                        }
 
-                        $data = $this->Product_model->single_product($value2->product_id,false);
-                        $data = array(
-                            'amount' => $data->amount - 1
-                        );
-                        $data = $this->security->xss_clean($data);
-                        $this->common_model->update($data, $value2->product_id, 'tbl_product');
                     }
 
                     $data_email['payment_mode'] = strtoupper('cod');
