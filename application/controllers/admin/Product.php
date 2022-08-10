@@ -449,7 +449,7 @@ class Product extends CI_Controller {
                 // TODO
                 'created_at' => strtotime(date('d-m-Y h:i:s A',now())),
                 'amount' =>  $this->input->post('amount'),
-                'status' =>  $this->input->post('amount') == 0 ? 0 : 1
+                'status' =>  $this->input->post('amount') <= 0 ? 0 : 1
                 // 'created_at' => strtotime(date('d-m-Y h:i:s A',now()))
             );
 
@@ -713,7 +713,7 @@ class Product extends CI_Controller {
             'seo_keywords' => $this->input->post('seo_keywords'),
             // TODO
             'amount' =>  $this->input->post('amount'),
-            'status' =>  $this->input->post('amount') == 0 ? 0 : 1
+            'status' =>  $this->input->post('amount') <= 0 ? 0 : 1
         );
 
         $data = $this->security->xss_clean($data);
