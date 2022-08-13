@@ -5,28 +5,28 @@
 
 	// Menu bar labels
 	
-	$lang['home_lbl'] = "Trang chủ";
-	$lang['category_lbl'] = "Thể loại";
+	$lang['home_lbl'] = "Home";
+	$lang['category_lbl'] = "Categories";
 	$lang['offer_lbl'] = "Offer";
-	$lang['todays_deal_lbl'] = "Deal Hôm Nay";
-	$lang['contactus_lbl'] = "Liên hệ chúng tôi";
+	$lang['todays_deal_lbl'] = "Today Deals";
+	$lang['contactus_lbl'] = "Contact Us";
 
 
 	// footer content labels
-	$lang['about_section_lbl'] = "Về";
-	$lang['myaccount_section_lbl'] = "Tài khoản";
+	$lang['about_section_lbl'] = "About";
+	$lang['myaccount_section_lbl'] = "My Account";
 
-	$lang['myaccount_lbl'] = "Tài khoản";
-	$lang['myorders_lbl'] = "Đơn đặt";
-	$lang['shoppingcart_lbl'] = "Giỏ hàng";
+	$lang['myaccount_lbl'] = "My Account";
+	$lang['myorders_lbl'] = "My Orders";
+	$lang['shoppingcart_lbl'] = "Shopping Cart";
 	$lang['mywishlist_lbl'] = "Wishlist";
-	$lang['myreviewrating_lbl'] = "Review và Đánh giá";
+	$lang['myreviewrating_lbl'] = "My Reviews & Rating";
 
-	$lang['followus_section_lbl'] = "Theo dõi";
-	$lang['downloadapps_section_lbl'] = "Tải Apps";
+	$lang['followus_section_lbl'] = "Follow Us";
+	$lang['downloadapps_section_lbl'] = "Download Apps";
 
-	$lang['address_sort_lbl'] = "Địa chỉ";
-	$lang['phone_sort_lbl'] = "Số điện thoại";
+	$lang['address_sort_lbl'] = "Address";
+	$lang['phone_sort_lbl'] = "Phone";
 	$lang['email_sort_lbl'] = "Email";
 
 
@@ -36,9 +36,9 @@
 	$lang['price_filter_lbl'] = "Filter by Price";
 	$lang['brand_filter_lbl'] = "Brands";
 
-	$lang['filters_lbl'] = "Lọc";
+	$lang['filters_lbl'] = "Filters";
 	$lang['price_range_lbl'] = "Price";
-	$lang['sort_by_lbl'] = "Sắp xếp theo";
+	$lang['sort_by_lbl'] = "Sort By";
 
 	$lang['newest_first_lbl'] = "Newest First";
 	$lang['low_to_high_lbl'] = "Low to High Price";
@@ -128,6 +128,7 @@
 	$lang['cod_lbl'] = "Cash on Delivery";
 	$lang['cod_short_lbl'] = "COD";
 	$lang['paypal_lbl'] = "Paypal";
+	$lang['momo_lbl'] = "MoMo";
 	$lang['paypal_msg_lbl'] = "Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.";
 	$lang['stripe_lbl'] = "Stripe";
 	$lang['stripe_msg_lbl'] = "Pay via Stripe; you can pay with your credit card if you don’t have a Stripe account.";
@@ -137,9 +138,10 @@
 	$lang['razorpay_lbl'] = "Razorpay";
 	$lang['razorpay_note_lbl'] = "Razorpay is only work with indian currency (INR)";
 	$lang['pay_with_razorpay_lbl'] = "Pay with Razorpay";
+	$lang['pay_with_momo_lbl'] = "Thanh toán với MoMo";
 	$lang['razorpay_msg_lbl'] = "Pay via Razorpay; you can pay with your credit card if you don’t have a Razorpay account.";
 
-	$lang['coupon_save_msg_lbl'] = "You will save ### on this order!";		// please don't change ### because proper saving message will not display
+    $lang['coupon_save_msg_lbl'] = "Bạn tích kiệm được ### ở đơn hàng này!";		// please don't change ### because proper saving message will not display
 
 
 	// Other Labels
@@ -403,24 +405,24 @@
 
 	// All Kind of Messages
 
-	$lang['reset_pass_link_exp'] = "Đường link đặt lại hết hạn!";
+	$lang['reset_pass_link_exp'] = "Password reset link is expired!";
 
-	$lang['reset_pass_link_err'] = "Mã xác nhận hoặc đường link không hợp lệ!";
+	$lang['reset_pass_link_err'] = "Token invalid or password reset link is expired!";
 
-	$lang['correct_err'] = "Xin hãy điền hợp lệ và thử lại.";
+	$lang['correct_err'] = "Please correct the errors and try again.";
 
-	$lang['all_required_field_err'] = "Điền tất cả trường yêu cầu";
+	$lang['all_required_field_err'] = "Enter all required fields";
 
-	$lang['required_email_password_err'] = "Email và mật khẩu yêu cầu!";
+	$lang['required_email_password_err'] = "Email and password is required!";
 
-	$lang['are_you_sure_msg'] = "Bạn chắc chắn?";
-	$lang['data_remove_msg'] = "Data sẽ được xóa.";
+	$lang['are_you_sure_msg'] = "Are you sure?";
+	$lang['data_remove_msg'] = "This data will be remove.";
 
-	$lang['my_order_empty'] = "Bạn chưa được sản phẩm nào!";
+	$lang['my_order_empty'] = "You have not ordered any products!";
 
-	$lang['my_order_empty'] = "Bạn chưa được sản phẩm nào!";
+	$lang['my_order_empty'] = "You have not ordered any products!";
 
-	$lang['add_cart'] = "Sản phẩm đã được thêm vào giỏ hàng.";
+	$lang['add_cart'] = "Product is added to your cart.";
 
 	$lang['update_cart'] = "Your cart is updated.";
 
@@ -554,64 +556,64 @@
 	$lang['cancel_ord_bank_err'] = "Please select bank for refund";
 
 	// for login must
-	$lang['login_required_error']="Bạn phải đăng nhập !";
+	$lang['login_required_error']="You must have to login !";
 
 	// for invalid email format
-	$lang['invalid_email_format']="Định dạng mail không đúng !";
+	$lang['invalid_email_format']="Email format is invalid !";
 
 	// for email already exist
-	$lang['email_exist_error']="Email đã tồn tại !";
+	$lang['email_exist_error']="Email is already exist !";
 
 	// for total records
-	$lang['nos_records_msg']="### bản ghi"; 	//don't remove ### otherwise count will no display
+	$lang['nos_records_msg']="### records found"; 	//don't remove ### otherwise count will no display
 
 	// for bank details exits
-	$lang['bank_exist_error']="Thông tin đã tồn tại !";
+	$lang['bank_exist_error']="Bank details is already exist !";
 
 	// for profile update success
-	$lang['profile_update_msg']="Cập nhật thông tin thành công.";
+	$lang['profile_update_msg']="Profile updated successfully.";
 
 	// for password update success
-	$lang['change_password_msg']="Cập nhật mật khẩu thành công.";
+	$lang['change_password_msg']="Password changed successfully.";
 
 	// for wrong password error
-	$lang['wrong_password_error']="Sai mật khẩu cũ !";
+	$lang['wrong_password_error']="Old password is incorrect !";
 
 	// for product removed to banner
-	$lang['product_remove_banner_msg']="Sản phẩm đã bị xóa hỏi banner.";
+	$lang['product_remove_banner_msg']="Product removed from banner.";
 
 	// for offer in banner section hind
-	$lang['offer_in_banner_hint_lbl']="Bạn có thể thêm tất cả sản phẩm vào đơn hàng này";
+	$lang['offer_in_banner_hint_lbl']="You can add all products of this offer";
 
 	// for payment mode
-	$lang['payment_mode_lbl']="Chế độ thanh toán";
+	$lang['payment_mode_lbl']="Payment Mode";
 
 	// for remove coupon
-	$lang['remove_coupon_msg']="Mã giảm giá bị xóa.";
+	$lang['remove_coupon_msg']="Coupon code is removed.";
 
 	// for checkout amount issue
-	$lang['checkout_amt_error']="Số tiền thanh toán phải lớn hơn 0 !";
+	$lang['checkout_amt_error']="Checkout amount must be grater than 1 USD !";
 
 	// for product is already cancelled
-	$lang['pro_already_cancelled']="Sản phẩm đã được hủy!";
+	$lang['pro_already_cancelled']="Product is already cancelled!";
 
 	// for order is already cancelled
-	$lang['ord_already_cancelled']="Đơn hàng đã được hủy!";
+	$lang['ord_already_cancelled']="Order is already cancelled!";
 
 	// for applied offer label
-	$lang['applied_offer_lbl']="1 offer được áp dụng !";
+	$lang['applied_offer_lbl']="1 offer is applied !";
 
 	// for offer description label
-	$lang['offer_details_lbl']="Chi tiết Offer";
+	$lang['offer_details_lbl']="Offer Description";
 
 	// for offer description label
-	$lang['offer_details_lbl']="Chi tiết Offer";
+	$lang['offer_details_lbl']="Offer Description";
 
 	// for product unavailable all labels
-	$lang['unavailable_lbl']="Hiện tại không khả dụng!";
-	$lang['some_product_unavailable_lbl']="Một số sản phẩm không khả dụng!";
-	$lang['product_unavailable_lbl']="Sản phẩm này không khả dụng !";
+	$lang['unavailable_lbl']="Currently unavailable!";
+	$lang['some_product_unavailable_lbl']="Some product is currently unavailable!";
+	$lang['product_unavailable_lbl']="This product is currently unavailable!";
 
-	$lang['please_wait_lbl']="Xin chờ...";
+	$lang['please_wait_lbl']="Please wait...";
 
 ?>

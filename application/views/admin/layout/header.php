@@ -156,7 +156,7 @@ define('PROFILE_IMG', $this->db->get_where('tbl_admin', array('id' => '1'))->row
               </ul>
 
               <ul class="nav navbar-nav navbar-right">
-                <a href="<?=base_url('/')?>" target="_blank" style="font-size:14px;color:#FFF;border:1px solid rgba(255, 255, 255, 0.7);padding: 8px 12px;border-radius:2px;margin-right:20px;"><i class="fa fa-desktop" style="padding-right:6px;"></i> <?=$this->lang->line('visit_web_lbl')?></a>
+                <!--<a href="<?=base_url('/')?>" target="_blank" style="font-size:14px;color:#FFF;border:1px solid rgba(255, 255, 255, 0.7);padding: 8px 12px;border-radius:2px;margin-right:20px;"><i class="fa fa-desktop" style="padding-right:6px;"></i> <?=$this->lang->line('visit_web_lbl')?></a>-->
 
                 <li class="dropdown notification">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">

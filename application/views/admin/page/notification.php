@@ -9,44 +9,44 @@
 			<div class="clearfix"></div>
 			<div class="card-body mrg_bottom" style="padding: 0px">
 	            <ul class="nav nav-tabs" role="tablist">
-	                <li role="presentation" class="active"><a href="#notification_settings" aria-controls="notification_settings" role="tab" data-toggle="tab"><i class="fa fa-wrench"></i> <?=$this->lang->line('notification_settings_lbl')?></a></li>
+	                <!--<li role="presentation" class="active"><a href="#notification_settings" aria-controls="notification_settings" role="tab" data-toggle="tab"><i class="fa fa-wrench"></i> <?=$this->lang->line('notification_settings_lbl')?></a></li>-->
 	                <li role="presentation"><a href="#send_notification" aria-controls="send_notification" role="tab" data-toggle="tab"><i class="fa fa-send"></i> <?=$this->lang->line('send_notification_lbl')?></a></li>
 	                
 	            </ul>
 	            <div class="tab-content">
 
 	            	<!-- Notification Setting -->
-	            	<div role="tabpanel" class="tab-pane active" id="notification_settings">
-	            		<div class="col-md-12">
-	            			<form action="<?=site_url('admin/pages/save_app_setting')?>" name="settings_api" method="post" class="form form-horizontal" enctype="multipart/form-data">
+	            	<!--<div role="tabpanel" class="tab-pane active" id="notification_settings">-->
+	            	<!--	<div class="col-md-12">-->
+	            	<!--		<form action="<?=site_url('admin/pages/save_app_setting')?>" name="settings_api" method="post" class="form form-horizontal" enctype="multipart/form-data">-->
 
-	            			  <input type="hidden" name="action_for" value="notification_settings">
+	            	<!--		  <input type="hidden" name="action_for" value="notification_settings">-->
 
-			                  <div class="section">
-			                  <div class="section-body">
-			                    <div class="form-group">
-			                      <label class="col-md-3 control-label"><?=$this->lang->line('one_signal_id_lbl')?> :-</label>
-			                      <div class="col-md-9">
-			                        <input type="text" name="onesignal_app_id" id="onesignal_app_id" value="<?php echo $settings_row->onesignal_app_id;?>" class="form-control">
-			                      </div>
-			                    </div>
-			                    <div class="form-group">
-			                      <label class="col-md-3 control-label"><?=$this->lang->line('one_signal_rest_key_lbl')?> :-</label>
-			                      <div class="col-md-9">
-			                        <input type="text" name="onesignal_rest_key" id="onesignal_rest_key" value="<?php echo $settings_row->onesignal_rest_key;?>" class="form-control">
-			                      </div>
-			                    </div>              
-			                    <div class="form-group">
-			                    <div class="col-md-9 col-md-offset-3">
-			                      <button type="submit" name="notification_submit" class="btn btn-primary"><?=$this->lang->line('save_btn')?></button>
-			                    </div>
-			                    </div>
-			                  </div>
-			                  </div>
-			                </form>
-	            		</div>
-	            		<div class="clearfix"></div>
-	            	</div>
+			           <!--       <div class="section">-->
+			           <!--       <div class="section-body">-->
+			           <!--         <div class="form-group">-->
+			           <!--           <label class="col-md-3 control-label"><?=$this->lang->line('one_signal_id_lbl')?> :-</label>-->
+			           <!--           <div class="col-md-9">-->
+			           <!--             <input type="text" name="onesignal_app_id" id="onesignal_app_id" value="<?php echo $settings_row->onesignal_app_id;?>" class="form-control">-->
+			           <!--           </div>-->
+			           <!--         </div>-->
+			           <!--         <div class="form-group">-->
+			           <!--           <label class="col-md-3 control-label"><?=$this->lang->line('one_signal_rest_key_lbl')?> :-</label>-->
+			           <!--           <div class="col-md-9">-->
+			           <!--             <input type="text" name="onesignal_rest_key" id="onesignal_rest_key" value="<?php echo $settings_row->onesignal_rest_key;?>" class="form-control">-->
+			           <!--           </div>-->
+			           <!--         </div>              -->
+			           <!--         <div class="form-group">-->
+			           <!--         <div class="col-md-9 col-md-offset-3">-->
+			           <!--           <button type="submit" name="notification_submit" class="btn btn-primary"><?=$this->lang->line('save_btn')?></button>-->
+			           <!--         </div>-->
+			           <!--         </div>-->
+			           <!--       </div>-->
+			           <!--       </div>-->
+			           <!--     </form>-->
+	            	<!--	</div>-->
+	            	<!--	<div class="clearfix"></div>-->
+	            	<!--</div>-->
 	            	<!-- End Setting -->
 
 	            	<!-- Send Notification -->

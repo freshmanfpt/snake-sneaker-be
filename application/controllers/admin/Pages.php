@@ -1038,6 +1038,135 @@ class Pages extends MY_Controller
 
         redirect(base_url('admin/notification'), 'refresh');
     }
+    
+    // TODO:
+    
+public function send_notification_param($notification_title, $notification_msg) 
+    {
+
+    //     $row_app = $this->Setting_model->get_android_details();
+
+    //     if ($this->input->post('external_link') != "") {
+    //         $external_link = trim($this->input->post('external_link'));
+    //     } else {
+    //         $external_link = false;
+    //     }
+
+    //     $type = $this->input->post('type');
+
+    //     // $notification_title = trim($this->input->post('notification_title'));
+    //     // $notification_msg = trim($this->input->post('notification_msg'));
+
+    //     $id = $sub_id = 0;
+    //     $title = '';
+
+    //     switch ($type) {
+    //         case 'category':
+    //             $id = $this->input->post('cat_id');
+    //             $title = $this->common_model->selectByidParam($id, 'tbl_category', 'category_name');
+    //             break;
+
+    //         case 'sub_category':
+    //             $id = $this->input->post('cat_id2');
+    //             $sub_id = $this->input->post('sub_cat_id');
+    //             $title = $this->common_model->selectByidParam($sub_id, 'tbl_sub_category', 'sub_category_name');
+    //             break;
+
+    //         case 'todays_deal':
+    //             $id = 0;
+    //             break;
+
+    //         case 'offer':
+    //             $id = $this->input->post('offer_id');
+    //             $title = $this->common_model->selectByidParam($id, 'tbl_offers', 'offer_title');
+    //             break;
+
+    //         case 'banner':
+    //             $id = $this->input->post('banner_id');
+    //             $title = $this->common_model->selectByidParam($id, 'tbl_banner', 'banner_title');
+    //             break;
+
+    //         case 'brand':
+    //             $id = $this->input->post('brand_id');
+    //             $title = $this->common_model->selectByidParam($id, 'tbl_brands', 'brand_name');
+    //             break;
+
+    //         case 'product':
+    //             $id = $this->input->post('product_id');
+    //             $title = $this->common_model->selectByidParam($id, 'tbl_product', 'product_title');
+    //             break;
+
+    //         default:
+    //             $id = 0;
+    //             break;
+    //     }
+
+    //     $id = strval($id);
+    //     $sub_id = strval($sub_id);
+
+    //     if ($_FILES['big_picture']['error'] != 4) {
+
+    //         $config['upload_path'] =  'assets/images/';
+    //         $config['allowed_types'] = 'jpg|png|jpeg|PNG|JPG|JPEG';
+
+    //         $image = date('dmYhis') . '_' . rand(0, 99999) . "_notification." . pathinfo($_FILES['big_picture']['name'], PATHINFO_EXTENSION);
+
+    //         $config['file_name'] = $image;
+
+    //         $this->load->library('upload', $config);
+
+    //         if (!$this->upload->do_upload('big_picture')) {
+    //             $messge = array('message' => $this->upload->display_errors(), 'class' => 'error');
+    //             $this->session->set_flashdata('response_msg', $messge);
+    //             redirect(base_url() . 'admin/notification', 'refresh');
+    //         }
+
+    //         $file_name = base_url('assets/images/' . $image);
+
+    //         $fields = array(
+    //             'app_id' => $row_app->onesignal_app_id,
+    //             'included_segments' => array('All'),
+    //             'data' => array("foo" => "bar", "type" => $type, "id" => $id, "sub_id" => $sub_id, "title" => $title, "external_link" => $external_link),
+    //             'headings' => array("en" => $notification_title),
+    //             'contents' => array("en" => $notification_msg),
+    //             'big_picture' => $file_name
+    //         );
+    //     } else {
+    //         // no image select
+    //         $fields = array(
+    //             'app_id' => $row_app->onesignal_app_id,
+    //             'included_segments' => array('All'),
+    //             'data' => array("foo" => "bar", "type" => $type, "id" => $id, "sub_id" => $sub_id, "title" => $title, "external_link" => $external_link),
+    //             'headings' => array("en" => $notification_title),
+    //             'contents' => array("en" => $notification_msg),
+    //         );
+    //     }
+
+    //     $fields = json_encode($fields);
+    //     /*print("\nJSON sent:\n");
+    //     print($fields);*/
+
+    //     $ch = curl_init();
+    //     curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
+    //     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    //         'Content-Type: application/json; charset=utf-8',
+    //         'Authorization: Basic ' . $row_app->onesignal_rest_key
+    //     ));
+    //     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    //     curl_setopt($ch, CURLOPT_HEADER, FALSE);
+    //     curl_setopt($ch, CURLOPT_POST, TRUE);
+    //     curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
+    //     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+
+    //     $response = curl_exec($ch);
+
+    //     curl_close($ch);
+
+    //     $message = array('message' => $this->lang->line('notification_msg'), 'class' => 'success');
+    //     $this->session->set_flashdata('response_msg', $message);
+
+    //     redirect(base_url('admin/notification'), 'refresh');
+    }
 
     public function direct_send_notification()
     {

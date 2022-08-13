@@ -1,11 +1,11 @@
 <?php
 
-	$lang['android_settings_lbl'] = "Cài đặt App";
+	$lang['android_settings_lbl'] = "Android Settings";
 
-	$lang['verify_purchase_lbl'] = "Xác nhận";
+	$lang['verify_purchase_lbl'] = "Verify Purchase";
 
-	$lang['login_success'] = "Đăng nhập thành công";
+	$lang['login_success'] = "Login successfully";
 
-	$lang['login_tab_lbl'] = "Trạng thái login App/web";
+	$lang['login_tab_lbl'] = "App/Web Login Status";
 
 ?>

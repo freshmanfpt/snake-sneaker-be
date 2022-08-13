@@ -182,6 +182,11 @@ class Order extends CI_Controller {
         $products_arr=array();
 
         $where=array('order_id' => $order_id);
+        
+        // TODO:
+        // require_once APPPATH."controllers/admin/Pages.php";
+        // $pages=new Pages();
+        // $pages->send_notification_param('Giỏ hàng của bạn đã được thay đổi', $this->input->post('order_status')); 
 
         $row_transaction=$this->Order_model->get_order_transaction($order_id);
 
