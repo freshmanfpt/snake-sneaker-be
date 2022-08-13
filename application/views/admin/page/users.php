@@ -49,7 +49,6 @@
             <thead>
               <tr>
                 <th style="width:40px"></th>
-                <th><?=$this->lang->line('register_platform_lbl')?></th>
                 <th><?=$this->lang->line('name_lbl')?></th>
       				  <th><?=$this->lang->line('email_lbl')?></th>
       				  <th nowrap=""><?=$this->lang->line('register_on_lbl')?></th>
@@ -82,7 +81,6 @@
                       </div>
                   </div>
                 </td>
-                <td><?=ucfirst($row->register_platform)?></td>
                 <td nowrap="">
                   <a href="<?php echo site_url("admin/users/profile/".$row->id);?>?redirect=<?=$redirectUrl?>">
                     <div class="row" style="vertical-align: middle;">
