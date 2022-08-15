@@ -1,59 +1,59 @@
 <?php 
 
-	$lang['invalid_login_msg'] = "Login details is invalid!";
+	$lang['invalid_login_msg'] = "Chi tiết đăng nhập không hợp lệ!";
 	
-	$lang['name_lbl'] = "Name";
-	$lang['name_place_lbl'] = "Enter your name";
-	$lang['name_require_lbl'] = "Name is required!";
+	$lang['name_lbl'] = "Tên";
+	$lang['name_place_lbl'] = "Nhập tên";
+	$lang['name_require_lbl'] = "Yêu cầu nhập tên!";
 
 	$lang['email_lbl'] = "Email";
-	$lang['email_place_lbl'] = "Enter your email";
-	$lang['email_require_lbl'] = "Email is required!";
+	$lang['email_place_lbl'] = "Nhập email";
+	$lang['email_require_lbl'] = "Yêu cầu nhập tên!";
 
-	$lang['password_lbl'] = "Password";
-	$lang['password_place_lbl'] = "Enter password";
-	$lang['password_require_lbl'] = "Password is required!";
+	$lang['password_lbl'] = "Mật khẩu";
+	$lang['password_place_lbl'] = "Nhập mật khẩu";
+	$lang['password_require_lbl'] = "Yêu cầu nhập mật khẩu!";
 
-	$lang['cpassword_lbl'] = "Confirm password";
-	$lang['cpassword_place_lbl'] = "Enter confirm password";
-	$lang['cpassword_require_lbl'] = "Confirm password is required!";
+	$lang['cpassword_lbl'] = "Xác nhận mật khẩu";
+	$lang['cpassword_place_lbl'] = "Nhập lại mật khẩu";
+	$lang['cpassword_require_lbl'] = "Yêu cầu nhập lại mật khẩu!";
 
-	$lang['new_password_lbl'] = "New Password";
-	$lang['new_password_place_lbl'] = "Enter new password";
-	$lang['new_password_require_lbl'] = "Password is required!";
+	$lang['new_password_lbl'] = "Mật khẩu mới";
+	$lang['new_password_place_lbl'] = "Nhập mật khẩu mới";
+	$lang['new_password_require_lbl'] = "Yêu cầu nhập mật khẩu!";
 
-	$lang['c_new_password_lbl'] = "Confirm new password";
-	$lang['c_new_password_place_lbl'] = "Enter confirm new password";
-	$lang['c_new_password_require_lbl'] = "Confirm new password is required!";
+	$lang['c_new_password_lbl'] = "Xác nhận mật khẩu";
+	$lang['c_new_password_place_lbl'] = "Nhập lại mật khẩu";
+	$lang['c_new_password_require_lbl'] = "Yêu cầu nhập lại mật khẩu!";
 
-	$lang['phone_no_lbl'] = "Phone number";
-	$lang['phone_no_place_lbl'] = "Enter your phone number";
-	$lang['phone_no_require_lbl'] = "Phone number is required!";
+	$lang['phone_no_lbl'] = "Số điện thoại";
+	$lang['phone_no_place_lbl'] = "Nhập số điện thoại";
+	$lang['phone_no_require_lbl'] = "Yêu cầu nhập số điện thoại!";
 
-	$lang['choose_file_place_lbl'] = "Choose File..";
-	$lang['browse_file_place_lbl'] = "Browse";
+	$lang['choose_file_place_lbl'] = "Chọn file..";
+	$lang['browse_file_place_lbl'] = "Tìm";
 
 	
-	$lang['registered_email_lbl'] = "Registered Email";
-	$lang['profile_pic_lbl'] = "Profile Photo";
+	$lang['registered_email_lbl'] = "Email Đăng Ký";
+	$lang['profile_pic_lbl'] = "Ảnh hồ sơ";
 
-	$lang['enter_code_lbl'] = "Enter Code";
-	$lang['invalid_code_lbl'] = "Code is required!";
+	$lang['enter_code_lbl'] = "Nhập code";
+	$lang['invalid_code_lbl'] = "Yêu cầu nhập code!";
 
-	$lang['old_password_lbl'] = "Old Password";
-	$lang['old_password_place_lbl'] = "Enter old password";
-	$lang['old_password_require_lbl'] = "Old Password is required!";
+	$lang['old_password_lbl'] = "Mật khẩu cũ";
+	$lang['old_password_place_lbl'] = "Nhập mật khẩu cũ";
+	$lang['old_password_require_lbl'] = "Yêu cầu nhập mật khẩu cũ!";
 
-	$lang['new_password_lbl'] = "New Password";
-	$lang['new_password_place_lbl'] = "Enter new password";
-	$lang['new_password_require_lbl'] = "New Password is required!";
+	$lang['new_password_lbl'] = "Mật khẩu mới";
+	$lang['new_password_place_lbl'] = "Nhập mật khẩu mới";
+	$lang['new_password_require_lbl'] = "Yêu cầu nhập mật khẩu mới!";
 
-	$lang['c_new_password_lbl'] = "Confirm New Password";
-	$lang['c_new_password_place_lbl'] = "Enter confirm new password";
-	$lang['c_new_password_require_lbl'] = "Confirm Password is required!";
+	$lang['c_new_password_lbl'] = "Xác nhận mật khẩu mới";
+	$lang['c_new_password_place_lbl'] = "Nhập mật khẩu mới";
+	$lang['c_new_password_require_lbl'] = "Yêu cầu nhập lại mật khẩu mới!";
 
-	$lang['password_cpass_match_lbl'] = "New and Confirm password must be match!";
-	$lang['password_c_new_pass_match_lbl'] = "New password and confirm new password must be match!";
+	$lang['password_cpass_match_lbl'] = "Mật khẩu phải trùng nhau!";
+	$lang['password_c_new_pass_match_lbl'] = "Mật khẩu phải trùng nhau!";
 	
 	$lang['message_lbl'] = "Message";
 	$lang['subject_lbl'] = "Select Subject";
@@ -140,102 +140,102 @@
 
 	// Admin Side form labels
 
-	$lang['title_lbl'] = "Title";
-	$lang['title_place_lbl'] = "Enter title";
+	$lang['title_lbl'] = "Tiêu đề";
+	$lang['title_place_lbl'] = "Nhập tiêu đề";
 
-	$lang['desc_lbl'] = "Description";
-	$lang['desc_place_lbl'] = "Enter description";
+	$lang['desc_lbl'] = "Mô tả";
+	$lang['desc_place_lbl'] = "Nhập mô tả";
 
-	$lang['optional_lbl'] = "Optional";
+	$lang['optional_lbl'] = "Lựa chọn";
 
-	$lang['select_opt_lbl'] = "Select";
-	$lang['select_cat_lbl'] = "Select Category";
-	$lang['select_cats_lbl'] = "Select Categories";
-	$lang['select_subcat_lbl'] = "Select Sub-Category";
-	$lang['select_brand_lbl'] = "Select Brand";
-	$lang['select_cat_brand_lbl'] = "Category/Brand";
-	$lang['select_offer_lbl'] = "Select Offer";
-	$lang['select_banner_lbl'] = "Select Banner";
-	$lang['select_product_lbl'] = "Select Product";
-	$lang['select_image_lbl'] = "Select Image";
-	$lang['select_status_lbl'] = "Select Status";
+	$lang['select_opt_lbl'] = "Chọn";
+	$lang['select_cat_lbl'] = "Chọn Thể Loại";
+	$lang['select_cats_lbl'] = "Chọn Thể Loại";
+	$lang['select_subcat_lbl'] = "Chọn Thể Loại Phụ";
+	$lang['select_brand_lbl'] = "Chọn Hãng";
+	$lang['select_cat_brand_lbl'] = "Thể loại và hãng";
+	$lang['select_offer_lbl'] = "Chọn Offer";
+	$lang['select_banner_lbl'] = "Chọn Banner";
+	$lang['select_product_lbl'] = "Chọn Sản phẩm";
+	$lang['select_image_lbl'] = "Chọn Ảnh";
+	$lang['select_status_lbl'] = "Chọn Status";
 
-	$lang['all_cats_lbl'] = "All Category";
-	$lang['all_subcat_lbl'] = "All Sub-Category";
-	$lang['all_brand_lbl'] = "All Brands";
-	$lang['all_offer_lbl'] = "All Offers";
+	$lang['all_cats_lbl'] = "Tất cả thể loại";
+	$lang['all_subcat_lbl'] = "Tất cả thể loại phụ";
+	$lang['all_brand_lbl'] = "Tất cả Hãng";
+	$lang['all_offer_lbl'] = "Tất cả Offers";
 
-	$lang['product_basic_lbl'] = "Basic Details";
-	$lang['product_pricing_lbl'] = "Product Pricing";
+	$lang['product_basic_lbl'] = "Chi tiết";
+	$lang['product_pricing_lbl'] = "Giá sản phẩm";
 	$lang['product_factor_lbl'] = "Product Factor";
-	$lang['product_images_lbl'] = "Product Image";
+	$lang['product_images_lbl'] = "Ảnh sản phẩm";
 
-	$lang['seo_content_lbl'] = "SEO Content";
-	$lang['seo_title_lbl'] = "SEO Title";
-	$lang['seo_title_place_lbl'] = "Enter SEO title";
-	$lang['seo_meta_lbl'] = "Meta Description";
-	$lang['seo_meta_place_lbl'] = "Enter SEO meta description";
-	$lang['seo_keyword_lbl'] = "Keywords";
-	$lang['seo_keyword_place_lbl'] = "Enter SEO keywords";
-	$lang['seo_keyword_hint_lbl'] = "Use comma(,) to separate keyword.";
+	$lang['seo_content_lbl'] = "SEO";
+	$lang['seo_title_lbl'] = "Tiêu đề SEO";
+	$lang['seo_title_place_lbl'] = "Nhập tiêu đề SEO";
+	$lang['seo_meta_lbl'] = "Mô tả Meta";
+	$lang['seo_meta_place_lbl'] = "Nhập mô tả meta SEO";
+	$lang['seo_keyword_lbl'] = "Từ khóa";
+	$lang['seo_keyword_place_lbl'] = "Nhập từ khóa cho SEO";
+	$lang['seo_keyword_hint_lbl'] = "Dùng dấu ',' để tách các từ khóa";
 
 	// Product form Labels
 
-	$lang['sort_desc_lbl'] = "Sort Description";
-	$lang['sort_desc_place_lbl'] = "Enter sort description";
-	$lang['product_features_lbl'] = "Products Features";
+	$lang['sort_desc_lbl'] = "Mô tả";
+	$lang['sort_desc_place_lbl'] = "Nhập mô tả";
+	$lang['product_features_lbl'] = "Đặc trưng của sản phẩm";
 
-	$lang['product_mrp_lbl'] = "M.R.P";
-	$lang['product_mrp_place_lbl'] = "Enter product M.R.P";
-	$lang['product_sale_price_lbl'] = "Selling Price";
+	$lang['product_mrp_lbl'] = "Giá sàn";
+	$lang['product_mrp_place_lbl'] = "Nhập giá sàn";
+	$lang['product_sale_price_lbl'] = "Giá bán";
 
-	$lang['offer_apply_success_lbl'] = "1 offer is applied !";
-	$lang['you_save_lbl'] = "You Save";
+	$lang['offer_apply_success_lbl'] = "Offer đã được áp dụng !";
+	$lang['you_save_lbl'] = "Bạn tiết kiệm được";
 
-	$lang['max_unit_buy_lbl'] = "Max Unit Buy";
+	$lang['max_unit_buy_lbl'] = "Số lượng mua tối đa";
 
-	$lang['feature_img1_lbl'] = "Featured Image-1";
-	$lang['feature_img2_lbl'] = "Featured Image-2";
+	$lang['feature_img1_lbl'] = "Ảnh đặc trưng 1";
+	$lang['feature_img2_lbl'] = "Ảnh đặc trưng 2";
 
-	$lang['product_img_gallery_lbl'] = "Product Image Gallery";
+	$lang['product_img_gallery_lbl'] = "List ảnh sản phẩm";
 
-	$lang['product_color_lbl'] = "Product Color";
-	$lang['other_product_color_lbl'] = "Other Product Colors";
-	$lang['select_color_lbl'] = "Select Color";
+	$lang['product_color_lbl'] = "Mầu sản phẩm";
+	$lang['other_product_color_lbl'] = "Mầu khác";
+	$lang['select_color_lbl'] = "Chọn mầu";
 
 
-	$lang['product_size_lbl'] = "Product Size";
-	$lang['product_size_place_lbl'] = "Enter product sizes";
-	$lang['product_size_note_lbl'] = "Enter different sizes comma seperated. E.g. 6, 7, 8";
-	$lang['product_size_chart_lbl'] = "Size Chart";
+	$lang['product_size_lbl'] = "Kích cỡ sản phẩm";
+	$lang['product_size_place_lbl'] = "Chọn kích cỡ sản phẩm";
+	$lang['product_size_note_lbl'] = "Nhập dấu ',' để tách . E.g. 6, 7, 8";
+	$lang['product_size_chart_lbl'] = "Bảng size";
 
 	// End Product form
 
 	// Coupons form labels
 
-	$lang['coupon_code_lbl'] = "Coupon Code";
-	$lang['coupon_code_place_lbl'] = "Enter coupon code";
-	$lang['discount_in_pr_lbl'] = "Discount in %";
+	$lang['coupon_code_lbl'] = "Mã giảm giá";
+	$lang['coupon_code_place_lbl'] = "Nhập mã giảm giá";
+	$lang['discount_in_pr_lbl'] = "% giảm giá";
 
-	$lang['discount_in_pr_note_lbl'] = "You no need to add % in field";
+	$lang['discount_in_pr_note_lbl'] = "Bạn không cần thêm % trong ô input";
 
-	$lang['or_lbl'] = "OR";
+	$lang['or_lbl'] = "Hoặc";
 
-	$lang['discount_in_amt_lbl'] = "Discount in Amount";
+	$lang['discount_in_amt_lbl'] = "Giảm tiền";
 
-	$lang['max_discount_status_lbl'] = "Maximum Discount Status";
+	$lang['max_discount_status_lbl'] = "Bật tắt giới hạn giảm tối đa";
 
-	$lang['max_discount_amt_lbl'] = "Maximum Discount (Amount)";
+	$lang['max_discount_amt_lbl'] = "Số lượng giảm tối đa";
 
-	$lang['min_amt_in_cart_status_lbl'] = "Minimum Amount in Cart Status";
+	$lang['min_amt_in_cart_status_lbl'] = "Bật tắt số lượng tối thiểu trong giỏ hàng";
 
-	$lang['min_amt_in_cart_lbl'] = "Minimum Amount in Cart";
+	$lang['min_amt_in_cart_lbl'] = "Số lượng tối theo trong giỏ hàng";
 
-	$lang['max_coupon_per_user_lbl'] = "Maximum Coupon Use Per User";
+	$lang['max_coupon_per_user_lbl'] = "Số lần sử dụng theo người dùng";
 
-	$lang['true_lbl'] = "True";
+	$lang['true_lbl'] = "Bật";
 
-	$lang['false_lbl'] = "False";
+	$lang['false_lbl'] = "Tắt";
 
 
 	// End coupons form labels
@@ -243,13 +243,13 @@
 
 	// Order Status Update form labels
 
-	$lang['update_ord_status_lbl'] = "Update Order Status";
+	$lang['update_ord_status_lbl'] = "Cập nhật trạng thái đơn hàng";
 
-	$lang['expected_delivery_date_lbl'] = "Expected Delivery Date";
+	$lang['expected_delivery_date_lbl'] = "Ngày giao dự kiến";
 
-	$lang['email_send_check_lbl'] = "Send email to user for their order status update. ";
+	$lang['email_send_check_lbl'] = "Gửi mail đến người dùng khi đơn hàng được cập nhật. ";
 
-	$lang['please_wait_lbl'] = "Please wait...";
+	$lang['please_wait_lbl'] = "Xin vui lòng chờ...";
 
 	// End order status update form
 

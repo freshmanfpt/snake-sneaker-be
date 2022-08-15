@@ -320,9 +320,9 @@
 
 	$lang['admin_lbl'] = "Admin";
 
-	$lang['profile_lbl'] = "Profile";
+	$lang['profile_lbl'] = "Hồ sơ";
 
-	$lang['backup_db_lbl'] = "Database Backup";
+	$lang['backup_db_lbl'] = "Sao lưu dữ liệu";
 
 	// End top header labels
 
@@ -415,18 +415,18 @@
 	$lang['img_lbl'] = "Image";
 	$lang['product_lbl'] = "Sản Phẩm";
 
-	$lang['user_nm_lbl'] = "User Name";
-	$lang['user_phone_lbl'] = "User Phone";
-	$lang['user_email_lbl'] = "User Email";
+	$lang['user_nm_lbl'] = "Tên người dùng";
+	$lang['user_phone_lbl'] = "SĐT Người Dùng";
+	$lang['user_email_lbl'] = "Email Người Dùng";
 
-	$lang['page_title_lbl'] = "Title Page";
-	$lang['content_lbl'] = "Content";
-	$lang['page_status_lbl'] = "Status Page";
+	$lang['page_title_lbl'] = "Tiêu đề trang";
+	$lang['content_lbl'] = "Nội dung";
+	$lang['page_status_lbl'] = "Trạng thái trang";
 
-	$lang['question_lbl'] = "Question";
-	$lang['question_place_lbl'] = "Enter question";
-	$lang['answer_lbl'] = "Answer";
-	$lang['answer_place_lbl'] = "Enter answer";
+	$lang['question_lbl'] = "Câu hỏi";
+	$lang['question_place_lbl'] = "Nhập câu hỏi";
+	$lang['answer_lbl'] = "Câu trả lời";
+	$lang['answer_place_lbl'] = "Nhập câu trả lời";
 
 	$lang['add_more_lbl'] = "Thêm";
 	$lang['min_rate_lbl'] = "Rate tối thiểu";
@@ -436,7 +436,7 @@
 
 	// Footer context label
 
-	$lang['footer_context_lbl'] = '';	
+	$lang['footer_context_lbl'] = 'Copyright © 2020 <a href="https:/snakesneaker.com.vn/" target="_blank">snakesneaker.com.vn.com.</a> All Rights Reserved.';	
 
 	// End footer
 
