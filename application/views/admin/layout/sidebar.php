@@ -118,7 +118,7 @@
         </a> 
       </li>
 
-      <li class="<?php if($page_title==$this->lang->line('contact_list_lbl')){ echo 'active';} ?>">
+      <!-- <li class="<?php if($page_title==$this->lang->line('contact_list_lbl')){ echo 'active';} ?>">
         <a href="<?=site_url('admin/contacts')?>">
         <div class="icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
         <div class="title"><?=$this->lang->line('contact_list_lbl')?></div>
@@ -193,7 +193,7 @@
         <div class="title"><?=$this->lang->line('api_urls_lbl')?></div>
         </a> 
       </li>
-      <?php } ?>
+      <?php } ?> -->
       
       
     </ul>

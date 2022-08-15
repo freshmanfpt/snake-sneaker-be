@@ -1,7 +1,7 @@
     <footer class="app-footer" style="position:relative;">
       <div class="row">
         <div class="col-xs-12">
-          <div class="footer-copyright"><?=$this->lang->line('footer_context_lbl')?></div>
+          <!-- <div class="footer-copyright"><?=$this->lang->line('footer_context_lbl')?></div> -->
         </div>
       </div>
     </footer>

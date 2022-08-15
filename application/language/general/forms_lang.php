@@ -167,7 +167,7 @@
 
 	$lang['product_basic_lbl'] = "Chi tiết";
 	$lang['product_pricing_lbl'] = "Giá sản phẩm";
-	$lang['product_factor_lbl'] = "Product Factor";
+	$lang['product_factor_lbl'] = "Chi tiết mầu và kích cỡ";
 	$lang['product_images_lbl'] = "Ảnh sản phẩm";
 
 	$lang['seo_content_lbl'] = "SEO";
