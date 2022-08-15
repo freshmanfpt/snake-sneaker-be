@@ -3663,13 +3663,13 @@ class Apis extends REST_Controller
 
                         $this->General_model->insert($data, 'tbl_order_status');
 			    // TODO
-                            $data = $this->Product_model->single_product($value->product_id,false);
-                            $data = array(
-                            'amount' => $data[0]->amount + $value->product_qty,
-                            'status' => $data[0]->amount + $value->product_qty > 0 ? 1 : 0
-                            );
-                            $data = $this->security->xss_clean($data);
-                            $this->General_model->update($data, $value->product_id, 'tbl_product');
+//                             $data = $this->Product_model->single_product($value->product_id,false);
+//                             $data = array(
+//                             'amount' => $data[0]->amount + $value->product_qty,
+//                             'status' => $data[0]->amount + $value->product_qty > 0 ? 1 : 0
+//                             );
+//                             $data = $this->security->xss_clean($data);
+//                             $this->General_model->update($data, $value->product_id, 'tbl_product');
 
                         $data = array('pro_order_status' => '5');
 
