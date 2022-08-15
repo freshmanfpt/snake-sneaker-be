@@ -139,7 +139,7 @@
                   <!-- <font color=<?php 
                     if($row->amount < 10 && $row->amount > 0 ){
                       echo "red";  
-                    }else if($row->amount == 0){
+                    }else if($row->amount <= 0){
                       echo "yellow";
                     } else{
                       echo "white";
